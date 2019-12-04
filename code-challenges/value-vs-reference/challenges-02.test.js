@@ -9,9 +9,7 @@ Write a function that appends ' The end.' to a string, and returns the modified 
 ------------------------------------------------------------------------------------------------ */
 
 const appendTheEnd = (str) => {
-  console.log(str);
   let newStr = str.concat(' The end.');
-  console.log(newStr);
   return newStr;
 };
 
@@ -49,7 +47,6 @@ console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 
 const addBirthYearProperty = (obj, year) => {
   obj.yearBorn = year;
-  console.log(obj);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -66,7 +63,9 @@ console.log(people[1].isAuthor) prints true
 ------------------------------------------------------------------------------------------------ */
 
 const setStatusAsAuthor = (people) => {
-  // Solution code here...
+  for (let index = 0; index < people.length; index++) {
+    people[index].isAuthor = true;
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -85,8 +84,9 @@ console.log(a) prints [1, 2, 3, 4]
 ------------------------------------------------------------------------------------------------ */
 
 const append = (arr1, arr2) => {
-  // Solution code here...
-
+  arr2.forEach((val) => {
+    arr1.push(val);
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -128,7 +128,7 @@ describe('Testing challenge 3', () => {
   });
 });
 
-xdescribe('Testing challenge 4', () => {
+describe('Testing challenge 4', () => {
   test('It should add a property to every object in an array', () => {
     const a = [{ fullName: 'Octavia Butler' }, { fullName: 'Ray Bradbury' }, { fullName: 'Kurt Vonnegut' }];
     setStatusAsAuthor(a);
@@ -139,7 +139,7 @@ xdescribe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should append the second array to the first', () => {
     const a = [1, 2, 3, 4];
     const b = [5, 6, 7, 8];
