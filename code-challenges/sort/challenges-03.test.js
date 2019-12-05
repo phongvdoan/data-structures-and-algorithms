@@ -45,7 +45,7 @@ const sortByLength = (arr) => {
     } else if ( a.length < b.length){
       return -1;
     }
-  })
+  });
   return arr;
 };
 
@@ -64,7 +64,7 @@ const alphabetizeBetter = (arr) => {
     } else if ( a.toLowerCase() < b.toLowerCase()) {
       return -1;
     }
-  })
+  });
   return arr;
 };
 
@@ -88,7 +88,7 @@ const sortByPrice = (arr) => {
     } else if (b.price > a.price) {
       return -1;
     }
-  })
+  });
   return arr;
 };
 
@@ -101,7 +101,14 @@ For example, [1, 14, 0.2, -281, 54782] is only correctly sorted in that order.
 ------------------------------------------------------------------------------------------------ */
 
 const sortNumbersByLength = (arr) => {
-  // Solution code here...
+  arr.sort((a,b) => {
+    if(`${a}`.length > `${b}`.length) {
+      return 1;
+    } else if (`${a}`.length < `${b}`.length) {
+      return -1;
+    }
+  });
+  return arr;
 };
 
 /*-----------------------------------------------------------------------------------------------
@@ -245,7 +252,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should sort numbers by their length', () => {
     expect(sortNumbersByLength([10, 2.8, 1, -47.75])).toStrictEqual([1, 10, 2.8, -47.75]);
     expect(sortNumbersByLength([100, 2.82, 1, -47.75])).toStrictEqual([1, 100, 2.82, -47.75]);
