@@ -143,6 +143,11 @@ For example:
 
 const removeEvenValues = (arr) => {
   // Solution code here...
+  for(let number = arr.length; number >= 0; number--) {
+    if (!(arr[number] % 2)){
+      arr.splice(number, 1);
+    }
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -253,7 +258,7 @@ describe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should remove the even numbers from the array', () => {
     let list = [1, 2, 3, 4, 5, 6];
     removeEvenValues(list);
