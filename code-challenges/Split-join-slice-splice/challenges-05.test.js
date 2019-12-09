@@ -16,9 +16,8 @@ For example, if the input is 'Welcome', the output will be:
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
-  for ( let index = 0; index <= str.length; index++) {
-    result.push(str.slice(index, str.length));
-    console.log('result :', result);
+  for (let index = 0; index <= str.length; index++) {
+    result.push(str.slice(index));
   }
   return result;
 };
@@ -33,6 +32,11 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 
 const wordsToCharList = (arr) => {
   // Solution code here...
+  let newArr = [];
+  for (let index = 0; index < arr.length; index++) {
+    newArr.push(arr.slice(index, index+1));
+  }
+  return newArr;
 };
 
 
@@ -209,7 +213,7 @@ describe('Testing challenge 1', () => {
   });
 });
 
-xdescribe('Testing challenge 2', () => {
+describe('Testing challenge 2', () => {
   test('It should return an array of individual letters', () => {
     expect(wordsToCharList('Gregor')).toStrictEqual(['G', 'r', 'e', 'g', 'o', 'r']);
     expect(wordsToCharList('Gregor').length).toStrictEqual(6);
