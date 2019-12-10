@@ -141,6 +141,16 @@ Write a function named totalCharacters that takes in an array and returns the nu
 
 const totalCharacters = (arr) => {
   // Solution code here...
+  let countOfCharacters = 0;
+  const values = Object.values(arr);
+  values.forEach(character => {
+    if(character.name !==null) countOfCharacters++;
+    if(character.spouse !==null) countOfCharacters++;
+    for(let person in character.children){
+      countOfCharacters++;
+    }
+  })
+  return countOfCharacters;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -227,7 +237,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should return the number of characters in the array', () => {
     expect(totalCharacters(characters)).toStrictEqual(26);
   });
