@@ -118,6 +118,19 @@ The input and output of this function are the same as the input and output from 
 
 const hasChildrenEntries = (arr, character) => {
   // Solution code here...
+  const entries = Object.entries(arr);
+  let result;
+  entries.forEach(parent => {
+    if (parent[1].name === character || parent[1].spouse === character) {
+      const child = parent[1].children;
+      if (child.length > 0) {
+        result = true;
+      } else result = false;
+
+    }
+  })
+  return result;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -204,7 +217,7 @@ describe('Testing challenge 3', () => {
   });
 });
 
-xdescribe('Testing challenge 4', () => {
+describe('Testing challenge 4', () => {
   test('It should return true for characters that have children', () => {
     expect(hasChildrenEntries(characters, 'Eddard')).toBeTruthy();
   });
