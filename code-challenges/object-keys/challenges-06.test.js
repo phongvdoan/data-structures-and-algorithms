@@ -7,7 +7,8 @@ Write a function named getCourseKeys that takes in the courseInfo object and ret
 
 For example: (['name', 'duration', 'topics', 'finalExam']).
 ------------------------------------------------------------------------------------------------ */
-const courseInfo = { name: 'Code 301', duration: { dayTrack: '4 weeks', eveningTrack: '8 weeks'},
+const courseInfo = {
+  name: 'Code 301', duration: { dayTrack: '4 weeks', eveningTrack: '8 weeks' },
   topics: ['SMACSS', 'APIs', 'NodeJS', 'SQL', 'jQuery', 'functional programming'],
   finalExam: true
 };
@@ -73,7 +74,7 @@ let characters = [
 const getHouses = (arr) => {
   let houses = [];
   // Solution code here...
-  arr.forEach(obj =>{
+  arr.forEach(obj => {
     houses.push(obj.house);
   })
   return houses;
@@ -93,7 +94,18 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
+  const values = Object.values(arr);
+  let result;
+  values.forEach(parent => {
+    if (parent.name === character || parent.spouse === character) {
+      const child = parent.children;
+      if (child.length > 0) {
+        result = true;
+      } else result = false;
 
+    }
+  })
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
