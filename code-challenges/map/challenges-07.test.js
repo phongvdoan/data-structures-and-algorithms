@@ -82,7 +82,7 @@ const evenOdd = (arr) => {
     } else if (num % 2 === 0) {
       array[index] = 'even';
     } else {
-       array[index] = "N/A";
+      array[index] = "N/A";
     }
   })
   return arr;
@@ -132,7 +132,7 @@ const snorlaxAbilities = {
 
 const extractAbilities = (arr) => {
   // Solution code here...
-  const abilityArr =[];
+  const abilityArr = [];
   arr.map(obj => {
     abilityArr.push(obj.ability.name);
   })
@@ -184,7 +184,17 @@ const snorlaxStats = {
 
 const extractStats = (arr) => {
   // Solution code here...
+  return arr.map((pokemon, index, array) => {
+    let abilityName = pokemon.stat.name;
+    let totalSum = pokemon.effort + pokemon.baseStat;
+    let pokemonObj = {
+      name: abilityName,
+      total: totalSum
+    };
+    return pokemonObj
+  })
 };
+  
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
@@ -266,7 +276,7 @@ describe('Testing challenge 6', () => {
   });
 });
 
-xdescribe('Testing challenge 7', () => {
+describe('Testing challenge 7', () => {
   test('It should return an array containing objects with name and total values', () => {
     expect(extractStats(snorlaxStats.stats)).toStrictEqual([
       { name: 'speed', total: 35, },
