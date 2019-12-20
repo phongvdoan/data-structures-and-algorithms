@@ -86,6 +86,8 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
+  let newArr = arr.filter(character => Number(character.mass) > Number(arr[0].mass));
+  return newArr.map(str => str.name).join(' - ')
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -165,7 +167,7 @@ describe('Testing challenge 1', () => {
   });
 });
 
-xdescribe('Testing challenge 2', () => {
+describe('Testing challenge 2', () => {
   test('It should return only characters that are bigger than Luke', () => {
     expect(biggerThanLuke(starWarsData)).toStrictEqual('Darth Vader - Pex Kylar');
     expect(biggerThanLuke([])).toStrictEqual('');
