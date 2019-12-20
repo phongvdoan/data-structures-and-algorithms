@@ -87,7 +87,7 @@ let starWarsData = [{
 let biggerThanLuke = (arr) => {
   // Solution code here...
   let newArr = arr.filter(character => Number(character.mass) > Number(arr[0].mass));
-  return newArr.map(str => str.name).join(' - ')
+  return newArr.map(str => str.name).join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -106,6 +106,13 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
+  return arr.sort((firstObj, secObj) => {
+    if (property === 'price') {
+      if (firstObj.price < secObj.price) return -1;
+    } else if (property === 'name') {
+      if (firstObj.name < secObj.name) return -1;
+    }
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -122,6 +129,7 @@ https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
   // Solution code here...
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -174,7 +182,7 @@ describe('Testing challenge 2', () => {
   });
 });
 
-xdescribe('Testing challenge 3', () => {
+describe('Testing challenge 3', () => {
   test('It should sort items by a price', () => {
 
     expect(sortBy('price', [
