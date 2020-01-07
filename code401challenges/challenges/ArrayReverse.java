@@ -10,7 +10,7 @@ public class ArrayReverse {
 
   public static int[] reverseArray(int[] array) {
     if (array.length > 1) {
-      for (int i = 0; i < array.length / 2; i++) {
+      for (int i = 0; i < (array.length - 1) / 2; i++) {
         int previousValue = array[array.length - i - 1];
         array[array.length - i - 1] = array[i];
         array[i] = previousValue;
