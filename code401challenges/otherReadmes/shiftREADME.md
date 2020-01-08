@@ -1,5 +1,7 @@
 # Challenge Summary
 <!-- Short summary or background information -->
+[Code](../src/main/java/code401challenges/ArrayShift.java)
+
 Insert a number in the middle of a array
 ## Challenge Description
 <!-- Description of the challenge -->
