@@ -11,4 +11,4 @@ We used an if loop to check to see if the array was greater than 1 because if it
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/array-reverse.jpg)
+![](../assets/array-reverse.jpg)
