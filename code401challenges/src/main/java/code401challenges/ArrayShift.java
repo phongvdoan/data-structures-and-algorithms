@@ -7,7 +7,7 @@ public class ArrayShift {
 
     }
 
-    public static String insertShiftArray(int[] initialArray, int num) {
+    public static int[] insertShiftArray(int[] initialArray, int num) {
         int[] newArr = new int[initialArray.length + 1];
         int halfOfLengthOfNewArr = newArr.length / 2;
         for(int i = 0; i < newArr.length; i++)
@@ -18,6 +18,6 @@ public class ArrayShift {
             } else {
                 newArr[i] = initialArray[i-1];
             }
-        return Arrays.toString(newArr);
+        return newArr;
     }
 }
