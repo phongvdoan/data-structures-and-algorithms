@@ -10,7 +10,7 @@ public class BinarySearchTest {
         int testSearchKey = 15;
         int testResult = 2;
 
-        assertEquals(testResult, BinarySearch.BinarySearch(testArr,testSearchKey));
+        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
     }
 
     @Test public void testTwoBinarySearchMethod() {
@@ -18,22 +18,22 @@ public class BinarySearchTest {
         int testSearchKey = 90;
         int testResult = -1;
 
-        assertEquals(testResult, BinarySearch.BinarySearch(testArr,testSearchKey));
+        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
     }
 
-    @Test public void testThreeBinarySearchMethod() {
+    @Test public void testThreeBinarySearchMethod_keyIsLast() {
         int[] testArr = {1,2,3,4,5,6,7};
-        int testSearchKey = -1;
-        int testResult = -1;
+        int testSearchKey = 7;
+        int testResult = 6;
 
-        assertEquals(testResult, BinarySearch.BinarySearch(testArr,testSearchKey));
+        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
     }
     @Test public void testDuplicateBinarySearchMethod() {
         int[] testArr = {1,2,2,3,4,5,6,7};
         int testSearchKey = 2;
         int testResult = 1;
 
-        assertEquals(testResult, BinarySearch.BinarySearch(testArr,testSearchKey));
+        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
     }
 
     @Test public void testNotEqualsBinarySearchMethod() {
@@ -41,7 +41,21 @@ public class BinarySearchTest {
         int testSearchKey = 2;
         int testResult = 5;
 
-        assertNotEquals(testResult, BinarySearch.BinarySearch(testArr,testSearchKey));
+        assertNotEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
     }
+    @Test public void testBinarySearchMethod_keyIsFirst() {
+        int[] testArr = {1,2,3,4,5,6,7};
+        int testSearchKey = 1;
+        int testResult = 0;
+
+        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
+    }
+//    @Test public void testBinarySearchMethod_emptyArray() {
+//        int[] testArr = {};
+//        int testSearchKey = 1;
+//        int testResult = 0;
+//
+//        assertEquals(testResult, BinarySearch.binarySearch(testArr,testSearchKey));
+//    }
 
 }

@@ -2,10 +2,10 @@ package code401challenges;
 
 public class BinarySearch {
 
-    public static int BinarySearch(int[] array, int searchKey){
+    public static int binarySearch(int[] array, int searchKey){
 
-        int leftLimit = 0;
-        int rightLimit = array.length - 1;
+        int leftLimit = -1;
+        int rightLimit = array.length;
         while(leftLimit < rightLimit){
             int midPoint = (leftLimit+rightLimit)/2;
             if(searchKey < array[midPoint]){
