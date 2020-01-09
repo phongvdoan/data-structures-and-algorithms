@@ -13,4 +13,4 @@ Created a new array with a length of the input array + 1. And then iterated over
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../assets/array-shift.jpg)
+![](/assets/array-shift.jpg)
