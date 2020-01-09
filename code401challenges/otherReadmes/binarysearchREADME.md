@@ -11,4 +11,4 @@ We set the right and left integers to the index of the first and last element wi
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](/assets/array-binary-search.jpg)
+![](../assets/array-binary-search.jpg)
