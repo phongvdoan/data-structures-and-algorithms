@@ -3,4 +3,4 @@
 
 [Day 2: Array Shift](otherReadmes/shiftREADME.md)
 
-[Day 3: Binary Search](otherReadmes/array-binary-search.jpg)
+[Day 3: Binary Search](otherReadmes/binarysearchREADME.md)
