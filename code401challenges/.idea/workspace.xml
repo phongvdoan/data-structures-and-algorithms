@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0846251a-a4e0-4c2b-accc-0574b2815b7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/2d-array/challenges-12.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/2d-array/challenges-12.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/Split-join-slice-splice/challenges-05.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/Split-join-slice-splice/challenges-05.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/chaining-methods/challenges-10.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/chaining-methods/challenges-10.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/filter/challenges-08.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/filter/challenges-08.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/for-each/challenges-01.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/for-each/challenges-01.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/map/challenges-07.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/map/challenges-07.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/methods/challenges-14.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/methods/challenges-14.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/object-keys/challenges-06.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/object-keys/challenges-06.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/reduce/challenges-09.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/reduce/challenges-09.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/regex-part1/challenges-04.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/regex-part1/challenges-04.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/regex-part2/challenges-11.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/regex-part2/challenges-11.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/sort/challenges-03.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/sort/challenges-03.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/strings/challenges-13.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/strings/challenges-13.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-challenges/value-vs-reference/challenges-02.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../code301challenges/value-vs-reference/challenges-02.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherReadmes/binarysearchREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/binarysearchREADME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherReadmes/reverseREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/reverseREADME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherReadmes/shiftREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/shiftREADME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,12 +80,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/array-reverse.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/otherReadmes/binarysearchREADME.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -93,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java" />
@@ -103,6 +119,7 @@
         <option value="$PROJECT_DIR$/otherReadmes/shiftREADME.md" />
         <option value="$PROJECT_DIR$/otherReadmes/reverseREADME.md" />
         <option value="$PROJECT_DIR$/otherReadmes/binarysearchREADME.md" />
+        <option value="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" />
       </list>
     </option>
   </component>
@@ -197,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578546583428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578589479288" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -217,7 +234,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest">
+  <component name="RunManager" selected="Application.ArrayReverse">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code401challenges.ArrayReverse" />
+      <module name="code401challenges.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
@@ -229,22 +259,6 @@
       <option name="PACKAGE_NAME" value="code401challenges" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearchTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testBinarySearchMethod" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayReverse" />
         <item itemvalue="JUnit.BinarySearchTest" />
         <item itemvalue="JUnit.BinarySearchTest.testTwoBinarySearchMethod" />
         <item itemvalue="JUnit.BinarySearchTest.testDuplicateBinarySearchMethod" />
         <item itemvalue="JUnit.BinarySearchTest.testThreeBinarySearchMethod" />
-        <item itemvalue="JUnit.BinarySearchTest.testBinarySearchMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +370,7 @@
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2790869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +384,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988167" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32988167" />
@@ -417,13 +431,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -496,6 +503,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/array-reverse.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
