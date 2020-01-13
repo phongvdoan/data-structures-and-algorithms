@@ -34,7 +34,7 @@ public class LinkedList {
             currentNode = currentNode.next;
 
         }
-        result += "{  NULL  }";
+        result += "NULL";
         return result;
     }
 

@@ -17,9 +17,9 @@ public class LinkedListTest {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
         testList.insert(4);
-        assertEquals("The list now has value of 4 as the first node", "The current values are: { 4 } -> {  NULL  }", testList.toString());
+        assertEquals("The list now has value of 4 as the first node", "The current values are: { 4 } -> NULL", testList.toString());
         testList.insert(5);
-        assertEquals("The list now has value of 5 as the first node", "The current values are: { 5 } -> { 4 } -> {  NULL  }", testList.toString());
+        assertEquals("The list now has value of 5 as the first node", "The current values are: { 5 } -> { 4 } -> NULL", testList.toString());
     }
 
     @Test public void testLinkedList_includesMethodReturnTrue(){
@@ -51,7 +51,7 @@ public class LinkedListTest {
         testList.insert(28);
         testList.insert(8);
 
-        assertEquals("The current values are: { 8 } -> { 28 } -> { 23 } -> { 3 } -> { 10 } -> {  NULL  }", testList.toString());
+        assertEquals("The current values are: { 8 } -> { 28 } -> { 23 } -> { 3 } -> { 10 } -> NULL", testList.toString());
     }
 
 
