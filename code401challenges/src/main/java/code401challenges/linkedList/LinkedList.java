@@ -1,6 +1,7 @@
 //https://stackoverflow.com/questions/12631333/initializing-singly-linked-list-java
 package code401challenges.linkedList;
 
+import code401challenges.InvalidInputException;
 import org.apache.commons.math3.exception.NullArgumentException;
 
 public class LinkedList {
@@ -17,15 +18,20 @@ public class LinkedList {
             head = new Node(value, head);
     }
 
-    public boolean includes(Integer value) throws NullArgumentException {
-        Node currentNode = this.head;
-        while(currentNode != null) {
-            if (currentNode.value == value) {
-                return true;
+    public boolean includes(Integer value) throws InvalidInputException {
+        if (value instanceof Integer ) {
+
+            Node currentNode = this.head;
+            while (currentNode != null) {
+                if (currentNode.value == value) {
+                    return true;
+                }
+                currentNode = currentNode.next;
             }
-            currentNode = currentNode.next;
+            return false;
+        } else {
+            throw new InvalidInputException("Value is not a number");
         }
-        return false;
     }
 
     public String toString() throws NullPointerException {
