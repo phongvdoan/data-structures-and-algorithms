@@ -4,9 +4,11 @@ package code401challenges.linkedList;
 import code401challenges.InvalidInputException;
 import org.apache.commons.math3.exception.NullArgumentException;
 
+import java.util.StringJoiner;
+
 public class LinkedList {
 
-    public Node head;
+     public Node head;
 
     public LinkedList() {
         this.head = null;
@@ -15,7 +17,7 @@ public class LinkedList {
     //https://www.youtube.com/watch?v=SMIq13-FZSE
     // this adds to the beginning versus the video shows to add to the end.
     public void insert(Integer value) throws NullArgumentException {
-            head = new Node(value, head);
+            this.head = new Node(value, this.head);
     }
 
     public boolean includes(Integer value) throws InvalidInputException {
@@ -36,14 +38,14 @@ public class LinkedList {
 
     public String toString() throws NullPointerException {
         Node currentNode = this.head;
-        String result = "The current values are: ";
+        StringJoiner result = new StringJoiner(" } -> { ", "{ ", " }");
         while(currentNode != null){
-            result += "{ " + currentNode.value + " } -> ";
+            result.add(String.valueOf(currentNode.value));
             currentNode = currentNode.next;
 
         }
-        result += "NULL";
-        return result;
+        result.add("NULL");
+        return result.toString();
     }
 
 }

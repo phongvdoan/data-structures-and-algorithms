@@ -1,6 +1,7 @@
 
 package code401challenges.linkedlist;
 
+import code401challenges.InvalidInputException;
 import code401challenges.linkedList.LinkedList;
 import org.junit.Test;
 
@@ -13,16 +14,17 @@ public class LinkedListTest {
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
     }
 
-    @Test public void testLinkedList_insertIntoList () {
+    @Test public void testLinkedList_insertIntoListAndPrintOutLinkedList() {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
         testList.insert(4);
-        assertEquals("The list now has value of 4 as the first node", "The current values are: { 4 } -> NULL", testList.toString());
+        assertEquals("The list now has value of 4 as the first node", 4, testList.head.value);
         testList.insert(5);
-        assertEquals("The list now has value of 5 as the first node", "The current values are: { 5 } -> { 4 } -> NULL", testList.toString());
+        assertEquals("The list now has value of 5 as the first node", 5, testList.head.value);
+        assertNotEquals( "This had the value of 6", 6, testList.head.value);
     }
 
-    @Test public void testLinkedList_includesMethodReturnTrue(){
+    @Test public void testLinkedList_includesMethodReturnTrue() throws InvalidInputException {
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -32,7 +34,7 @@ public class LinkedListTest {
 
         assertTrue("Value was not included in the LinkedList", testList.includes(3));
     }
-    @Test public void testLinkedList_includesMethodReturnFalse(){
+    @Test public void testLinkedList_includesMethodReturnFalse() throws InvalidInputException {
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -51,7 +53,7 @@ public class LinkedListTest {
         testList.insert(28);
         testList.insert(8);
 
-        assertEquals("The current values are: { 8 } -> { 28 } -> { 23 } -> { 3 } -> { 10 } -> NULL", testList.toString());
+        assertEquals("{ 8 } -> { 28 } -> { 23 } -> { 3 } -> { 10 } -> { NULL }", testList.toString());
     }
 
 
