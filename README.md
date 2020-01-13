@@ -5,4 +5,7 @@
 
 [Day 2: Array Shift](code401challenges/otherReadmes/shiftREADME.md)
 
-[Day 3: Binary Search](code401challenges/otherReadmes/array-binary-search.jpg)
+[Day 3: Binary Search](code401challenges/otherReadmes/binarysearchREADME.md)
+
+[Day 5: Linked List](code401challenges/otherReadmes/linkedListREADME.md)
+
