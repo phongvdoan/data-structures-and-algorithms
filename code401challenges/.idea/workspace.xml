@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,14 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="242">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +65,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +114,9 @@
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/Library.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/LinkedListTest/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -188,7 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578946072157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578949061732" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,53 +218,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedList.App" />
-      <module name="code401challenges.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code401challenges.Library" />
-      <module name="code401challenges.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest.testLinkedList_toStringMethod">
+    <configuration name="LinkedListTest.testLinkedList_includesMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
+          <option name="PATTERN" value="code401challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedList_includesMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testLinkedList_includesMethodReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedList_includesMethodReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testLinkedList_insertIntoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedList_insertIntoList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testLinkedList_instantiationWithEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedList_instantiationWithEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testLinkedList_toStringMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testLinkedList_toStringMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Library" />
-        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_toStringMethod" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_includesMethodReturnFalse" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_includesMethod" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_insertIntoList" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_instantiationWithEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -266,9 +323,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2020.01.09 at 15h 04m 25s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testLinkedList_insertIntoList - 2020.01.13 at 12h 49m 58s.xml">
+      <configuration name="LinkedListTest.testLinkedList_insertIntoList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_insertIntoList - 2020.01.13 at 12h 50m 40s.xml">
+      <configuration name="LinkedListTest.testLinkedList_insertIntoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_insertIntoList - 2020.01.13 at 12h 50m 51s.xml">
+      <configuration name="LinkedListTest.testLinkedList_insertIntoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_insertIntoList - 2020.01.13 at 12h 52m 29s.xml">
+      <configuration name="LinkedListTest.testLinkedList_insertIntoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_insertIntoList - 2020.01.13 at 12h 52m 43s.xml">
+      <configuration name="LinkedListTest.testLinkedList_insertIntoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_includesMethod - 2020.01.13 at 12h 54m 37s.xml">
+      <configuration name="LinkedListTest.testLinkedList_includesMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_includesMethodReturnFalse - 2020.01.13 at 12h 55m 36s.xml">
+      <configuration name="LinkedListTest.testLinkedList_includesMethodReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_includesMethodReturnFalse - 2020.01.13 at 12h 55m 53s.xml">
+      <configuration name="LinkedListTest.testLinkedList_includesMethodReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_toStringMethod - 2020.01.13 at 12h 57m 17s.xml">
+      <configuration name="LinkedListTest.testLinkedList_toStringMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_toStringMethod - 2020.01.13 at 12h 57m 31s.xml">
+      <configuration name="LinkedListTest.testLinkedList_toStringMethod" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
@@ -283,12 +376,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840237" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32840237" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988167" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32988167" />
@@ -386,26 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -420,6 +493,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -430,17 +523,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="242">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

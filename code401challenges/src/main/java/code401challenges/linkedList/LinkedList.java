@@ -3,23 +3,16 @@ package code401challenges.linkedList;
 
 public class LinkedList {
 
-    Node head;
+    public Node head;
 
     public LinkedList() {
         this.head = null;
     }
 
+    //https://www.youtube.com/watch?v=SMIq13-FZSE
+    // this adds to the beginning versus the video shows to add to the end.
     public void insert(Integer value) {
-            Node node = new Node( value, null);
-            if ( head == null){
-                head = node;
-            } else {
-                Node currentNode = head;
-                while(currentNode.next != null) {
-                    currentNode = currentNode.next;
-                }
-                currentNode.next = node;
-            }
+            this.head = new Node(value, this.head);
     }
 
     public boolean includes(Integer value) {
@@ -41,7 +34,7 @@ public class LinkedList {
             currentNode = currentNode.next;
 
         }
-        result += "{  NULL  } ";
+        result += "{  NULL  }";
         return result;
     }
 
