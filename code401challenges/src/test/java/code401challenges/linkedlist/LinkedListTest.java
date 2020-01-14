@@ -92,9 +92,11 @@ public class LinkedListTest {
         testList.insert(8);
         testList.insert(22);
         testList.insertAfter(8, 29);
-        assertEquals("{ 22 } -> { 8 } -> { 29 } -> { 9 } -> { 5 } -> { 4 } -> { NULL }", testList.toString());
+        testList.insertAfter(4, 29);
+        testList.insertAfter(22, 29);
+        assertEquals("{ 22 } -> { 29 } -> { 8 } -> { 29 } -> { 9 } -> { 5 } -> { 4 } -> { 29 } -> { NULL }", testList.toString());
         testList.delete(4);
-        assertEquals("{ 22 } -> { 8 } -> { 29 } -> { 9 } -> { 5 } -> { NULL }", testList.toString());
+        assertEquals("{ 22 } -> { 29 } -> { 8 } -> { 29 } -> { 9 } -> { 5 } -> { 29 } -> { NULL }", testList.toString());
     }
 
 

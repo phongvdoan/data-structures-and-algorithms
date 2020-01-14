@@ -4,6 +4,7 @@ package code401challenges.linkedList;
 import code401challenges.InvalidInputException;
 import org.apache.commons.math3.exception.NullArgumentException;
 
+import java.util.NoSuchElementException;
 import java.util.StringJoiner;
 
 public class LinkedList {
@@ -15,7 +16,7 @@ public class LinkedList {
     }
 
     //https://www.youtube.com/watch?v=SMIq13-FZSE
-    public void append(int value) {
+    public void append(int value)throws NullArgumentException {
         Node node = new Node( value, null);
         if ( this.head == null){
             this.head = node;
@@ -29,7 +30,7 @@ public class LinkedList {
 
     }
 
-    public void insertBefore(int previousVal, int newVal) {
+    public void insertBefore(int previousVal, int newVal)throws NoSuchElementException {
 
 
         if(this.head.value == previousVal){
@@ -46,10 +47,10 @@ public class LinkedList {
         }
     }
 
-    public void insertAfter(int previousVal, int newVal) {
+    public void insertAfter(int previousVal, int newVal)throws NoSuchElementException {
 
         Node currentNode = this.head;
-        while(currentNode.next != null) {
+        while(currentNode != null) {
             if(currentNode.value == previousVal) {
                 currentNode.next = new Node(newVal, currentNode.next);
             }
@@ -77,8 +78,7 @@ public class LinkedList {
             this.head = new Node(value, this.head);
     }
 
-    public boolean includes(Integer value) throws InvalidInputException {
-        if (value instanceof Integer ) {
+    public boolean includes(Integer value) throws NoSuchElementException {
 
             Node currentNode = this.head;
             while (currentNode != null) {
@@ -88,12 +88,9 @@ public class LinkedList {
                 currentNode = currentNode.next;
             }
             return false;
-        } else {
-            throw new InvalidInputException("Value is not a number");
-        }
     }
 
-    public String toString() throws NullPointerException {
+    public String toString() {
         Node currentNode = this.head;
         StringJoiner result = new StringJoiner(" } -> { ", "{ ", " }");
         while(currentNode != null){
