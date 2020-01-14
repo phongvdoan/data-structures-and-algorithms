@@ -6,3 +6,6 @@
 [Day 3: Binary Search](otherReadmes/binarysearchREADME.md)
 
 [Day 5: Linked List](otherReadmes/linkedListREADME.md)
+
+[Day 6: Linked List Insertion](otherReadmes/ll-insertionREADME.md)
+
