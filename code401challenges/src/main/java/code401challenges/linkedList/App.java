@@ -1,7 +1,9 @@
 package code401challenges.linkedList;
 
+import code401challenges.InvalidInputException;
+
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidInputException {
         LinkedList mylist = new LinkedList();
         mylist.insert(5);
         mylist.insert(6);
