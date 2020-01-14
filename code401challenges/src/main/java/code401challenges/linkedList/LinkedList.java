@@ -8,7 +8,7 @@ import java.util.StringJoiner;
 
 public class LinkedList {
 
-     public Node head;
+    public Node head;
 
     public LinkedList() {
         this.head = null;
@@ -17,10 +17,10 @@ public class LinkedList {
     //https://www.youtube.com/watch?v=SMIq13-FZSE
     public void append(int value) {
         Node node = new Node( value, null);
-        if ( head == null){
-            head = node;
+        if ( this.head == null){
+            this.head = node;
         } else {
-            Node currentNode = head;
+            Node currentNode = this.head;
             while(currentNode.next != null) {
                 currentNode = currentNode.next;
             }
@@ -35,7 +35,7 @@ public class LinkedList {
         if(this.head.value == previousVal){
             this.head = new Node(newVal, this.head);
         }
-        Node currentNode = head;
+        Node currentNode = this.head;
         while(currentNode.next != null) {
 
             if(currentNode.next.value == previousVal) {
@@ -48,7 +48,7 @@ public class LinkedList {
 
     public void insertAfter(int previousVal, int newVal) {
 
-        Node currentNode = head;
+        Node currentNode = this.head;
         while(currentNode.next != null) {
             if(currentNode.value == previousVal) {
                 currentNode.next = new Node(newVal, currentNode.next);
