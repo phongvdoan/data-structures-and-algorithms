@@ -9,3 +9,4 @@
 
 [Day 5: Linked List](code401challenges/otherReadmes/linkedListREADME.md)
 
+[Day 6: Linked List Insertion](code401challenges/otherReadmes/ll-insertionREADME.md)

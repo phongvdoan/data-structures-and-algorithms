@@ -8,10 +8,67 @@ import java.util.StringJoiner;
 
 public class LinkedList {
 
-     public Node head;
+    public Node head;
 
     public LinkedList() {
         this.head = null;
+    }
+
+    //https://www.youtube.com/watch?v=SMIq13-FZSE
+    public void append(int value) {
+        Node node = new Node( value, null);
+        if ( this.head == null){
+            this.head = node;
+        } else {
+            Node currentNode = this.head;
+            while(currentNode.next != null) {
+                currentNode = currentNode.next;
+            }
+            currentNode.next = node;
+        }
+
+    }
+
+    public void insertBefore(int previousVal, int newVal) {
+
+
+        if(this.head.value == previousVal){
+            this.head = new Node(newVal, this.head);
+        }
+        Node currentNode = this.head;
+        while(currentNode.next != null) {
+
+            if(currentNode.next.value == previousVal) {
+                currentNode.next = new Node(newVal, currentNode.next);
+                break;
+            }
+            currentNode = currentNode.next;
+        }
+    }
+
+    public void insertAfter(int previousVal, int newVal) {
+
+        Node currentNode = this.head;
+        while(currentNode.next != null) {
+            if(currentNode.value == previousVal) {
+                currentNode.next = new Node(newVal, currentNode.next);
+            }
+            currentNode = currentNode.next;
+        }
+    }
+
+    public void delete(int value ){
+        Node currentNode = this.head;
+        if(head.value == value){
+            head = currentNode.next;
+        }
+        while (currentNode.next != null){
+            if (currentNode.next.value == value){
+                currentNode.next = currentNode.next.next;
+                break;
+            }
+            currentNode = currentNode.next;
+        }
     }
 
     //https://www.youtube.com/watch?v=SMIq13-FZSE
