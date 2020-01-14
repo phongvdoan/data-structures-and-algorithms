@@ -1,5 +1,6 @@
 # Challenge Summary
 <!-- Short summary or background information -->
+[Code](/code401challenges/src/main/java/code401challenges/linkedList/LinkedList.java)
 Extending LinkedList Class to append, insertBefore, insertAfter, and delete
 
 ## Challenge Description
