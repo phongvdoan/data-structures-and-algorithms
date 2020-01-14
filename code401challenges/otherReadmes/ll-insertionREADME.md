@@ -1,0 +1,17 @@
+# Challenge Summary
+<!-- Short summary or background information -->
+Extending LinkedList Class to append, insertBefore, insertAfter, and delete
+
+## Challenge Description
+<!-- Description of the challenge -->
+Write the following methods for the Linked List class:
+
+.append(value) which adds a new node with the given value to the end of the list
+.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+write an additional method to delete a node with the given value from the linked list.
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+<!-- Embedded whiteboard image -->
