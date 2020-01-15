@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
@@ -16,41 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="98" column="97" selection-start-line="98" selection-start-column="97" selection-end-line="98" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +44,7 @@
         <option value="$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -93,7 +60,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,85 +67,16 @@
               <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="otherReadmes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579045674532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579059364438" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.testLinkedList_DeleteAfterIntoList">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
@@ -209,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedList_1tstFromTheLastMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -219,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_DeleteAfterIntoList" />
+      <option name="METHOD_NAME" value="testLinkedList_1tstFromTheLastMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testLinkedList_insertAndAppendsIntoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLastTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -235,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_insertAndAppendsIntoList" />
+      <option name="METHOD_NAME" value="testLinkedList_greaterThanLengthFromLastTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testLinkedList_insertAndInsertAfterIntoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedList_negativeValueFromLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -251,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_insertAndInsertAfterIntoList" />
+      <option name="METHOD_NAME" value="testLinkedList_negativeValueFromLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testLinkedList_insertAndInsertBeforeIntoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedList_negativeValueFromLastTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -267,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_insertAndInsertBeforeIntoList" />
+      <option name="METHOD_NAME" value="testLinkedList_negativeValueFromLastTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_DeleteAfterIntoList" />
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_insertAndInsertBeforeIntoList" />
         <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_insertAndInsertAfterIntoList" />
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_insertAndAppendsIntoList" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_negativeValueFromLast" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_negativeValueFromLastTwo" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_greaterThanLengthFromLastTwo" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_1tstFromTheLastMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -297,35 +194,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.13 at 18h 38m 08s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testLinkedList_greaterThanLengthFromLast - 2020.01.14 at 19h 17m 51s.xml">
+      <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.13 at 18h 45m 39s.xml">
+    <history-entry file="LinkedListTest_testLinkedList_greaterThanLengthFromLast - 2020.01.14 at 19h 19m 25s.xml">
+      <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_greaterThanLengthFromLast - 2020.01.14 at 19h 19m 47s.xml">
+      <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_negativeValueFromLast - 2020.01.14 at 19h 21m 31s.xml">
+      <configuration name="LinkedListTest.testLinkedList_negativeValueFromLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_1tstFromTheLastMethod - 2020.01.14 at 19h 25m 18s.xml">
+      <configuration name="LinkedListTest.testLinkedList_1tstFromTheLastMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_greaterThanLengthFromLastTwo - 2020.01.14 at 19h 25m 56s.xml">
+      <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLastTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_negativeValueFromLastTwo - 2020.01.14 at 19h 26m 08s.xml">
+      <configuration name="LinkedListTest.testLinkedList_negativeValueFromLastTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_negativeValueFromLastTwo - 2020.01.14 at 19h 35m 08s.xml">
+      <configuration name="LinkedListTest.testLinkedList_negativeValueFromLastTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testLinkedList_negativeValueFromLast - 2020.01.14 at 19h 35m 18s.xml">
+      <configuration name="LinkedListTest.testLinkedList_negativeValueFromLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2020.01.14 at 19h 35m 21s.xml">
       <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_insertAndInsertBeforeIntoList - 2020.01.14 at 15h 33m 40s.xml">
-      <configuration name="LinkedListTest.testLinkedList_insertAndInsertBeforeIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_insertAndInsertBeforeIntoList - 2020.01.14 at 15h 42m 54s.xml">
-      <configuration name="LinkedListTest.testLinkedList_insertAndInsertBeforeIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 43m 52s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 44m 16s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 44m 45s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 46m 47s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 47m 37s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testLinkedList_DeleteAfterIntoList - 2020.01.14 at 15h 47m 59s.xml">
-      <configuration name="LinkedListTest.testLinkedList_DeleteAfterIntoList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -339,9 +236,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33431518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33946982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,22 +308,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/array-shift.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/shiftREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/otherReadmes/reverseREADME.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -525,24 +407,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/otherReadmes/shiftREADME.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherReadmes/ll-kthFromEndREADME.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="141" column="51" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="98" column="97" selection-start-line="98" selection-start-column="97" selection-end-line="98" selection-end-column="97" />
+        <state relative-caret-position="236">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

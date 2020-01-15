@@ -3,18 +3,22 @@ package code401challenges.linkedlist;
 
 import code401challenges.InvalidInputException;
 import code401challenges.linkedList.LinkedList;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
+    LinkedList testList;
 
-    @Test public void testLinkedList_instantiationWithEmptyList() {
+    @Test
+    public void testLinkedList_instantiationWithEmptyList() {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
     }
 
-    @Test public void testLinkedList_insertIntoList() {
+    @Test
+    public void testLinkedList_insertIntoList() {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
         testList.insert(4);
@@ -24,7 +28,8 @@ public class LinkedListTest {
         assertNotEquals( "This had the value of 6", 6, testList.head.value);
     }
 
-    @Test public void testLinkedList_includesMethodReturnTrue() throws InvalidInputException {
+    @Test
+    public void testLinkedList_includesMethodReturnTrue() throws InvalidInputException {
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -34,7 +39,8 @@ public class LinkedListTest {
 
         assertTrue("Value was not included in the LinkedList", testList.includes(3));
     }
-    @Test public void testLinkedList_includesMethodReturnFalse() throws InvalidInputException {
+    @Test
+    public void testLinkedList_includesMethodReturnFalse() throws InvalidInputException {
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -45,7 +51,8 @@ public class LinkedListTest {
         assertFalse("Value not included in List is true", testList.includes(5));
     }
 
-    @Test public void testLinkedList_toStringMethod(){
+    @Test
+    public void testLinkedList_toStringMethod(){
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -56,7 +63,8 @@ public class LinkedListTest {
         assertEquals("{ 8 } -> { 28 } -> { 23 } -> { 3 } -> { 10 } -> { NULL }", testList.toString());
     }
 
-    @Test public void testLinkedList_insertAndAppendsIntoList() {
+    @Test
+    public void testLinkedList_insertAndAppendsIntoList() {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
         testList.insert(4);
@@ -68,7 +76,8 @@ public class LinkedListTest {
         assertEquals("{ 5 } -> { 4 } -> { 29 } -> { NULL }", testList.toString());
     }
 
-    @Test public void testLinkedList_insertAndInsertBeforeIntoList() {
+    @Test
+    public void testLinkedList_insertAndInsertBeforeIntoList() {
         LinkedList testList = new LinkedList();
         assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
         testList.insert(4);
@@ -84,7 +93,8 @@ public class LinkedListTest {
     }
 
 
-    @Test public void testLinkedList_DeleteAfterIntoList() {
+    @Test
+    public void testLinkedList_DeleteAfterIntoList() {
         LinkedList testList = new LinkedList();
         testList.insert(4);
         testList.insert(5);
@@ -99,5 +109,65 @@ public class LinkedListTest {
         assertEquals("{ 22 } -> { 29 } -> { 8 } -> { 29 } -> { 9 } -> { 5 } -> { 29 } -> { NULL }", testList.toString());
     }
 
+    @Before
+    public void setup(){
+        testList = new LinkedList();
+        testList.insert(2);
+        testList.insert(8);
+        testList.insert(3);
+        testList.insert(1);
+    }
+
+    @Test
+    public void testLinkedList_0thFromTheLastMethod() {
+
+        assertEquals("{ 1 } -> { 3 } -> { 8 } -> { 2 } -> { NULL }", testList.toString());
+        assertEquals("The 0 value did not return 2", 2, testList.kthFromEnd(0));
+
+    }
+
+    @Test
+    public void testLinkedList_2thFromTheLastMethod() {
+        assertEquals("The 2nd value from the end was not 3", 3,testList.kthFromEnd(2));
+    }
+
+    @Test
+            (expected = NullPointerException.class)
+    public void testLinkedList_greaterThanLengthFromLast(){
+        System.out.println(testList.kthFromEnd(10));
+
+    }
+
+    @Test
+            (expected = NullPointerException.class)
+    public void testLinkedList_negativeValueFromLast(){
+        System.out.println(testList.kthFromEnd(-1));
+
+    }
+
+    @Before
+    public void setuptwo(){
+        testList = new LinkedList();
+        testList.insert(2);
+    }
+
+    @Test
+    public void testLinkedList_1tstFromTheLastMethod() {
+        assertEquals("The first value from the end was not 2", 2,testList.kthFromEnd(0));
+    }
+
+    @Test
+            (expected = NullPointerException.class)
+    public void testLinkedList_greaterThanLengthFromLastTwo(){
+        System.out.println(testList.kthFromEnd(10));
+
+    }
+
+    @Test
+            (expected = NullPointerException.class)
+    public void testLinkedList_negativeValueFromLastTwo(){
+        System.out.println(testList.kthFromEnd(-1));
+
+    }
 
 }
