@@ -1,6 +1,7 @@
 # Singly Linked List
 <!-- Short summary or background information -->
 [Code](/code401challenges/src/main/java/code401challenges/linkedList/LinkedList.java)
+
 Create Linked List Class that can be accessed and instantiation with the first null value.
 
 ## Challenge

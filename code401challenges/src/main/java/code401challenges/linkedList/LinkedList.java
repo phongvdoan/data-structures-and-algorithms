@@ -90,6 +90,22 @@ public class LinkedList {
             return false;
     }
 
+    public int kthFromEnd(int k) {
+        int counter = 0;
+        Node current = this.head;
+        while (current != null){
+            counter++;
+            current = current.next;
+        }
+        if(k > counter){
+            throw new NullPointerException("Value is larger than the list size");
+        }
+        for(int i = 1; i < (counter - k); i++){
+            this.head = this.head.next;
+        }
+        return this.head.value;
+    }
+
     public String toString() {
         Node currentNode = this.head;
         StringJoiner result = new StringJoiner(" } -> { ", "{ ", " }");

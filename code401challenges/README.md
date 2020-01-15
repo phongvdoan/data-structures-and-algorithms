@@ -9,3 +9,5 @@
 
 [Day 6: Linked List Insertion](otherReadmes/ll-insertionREADME.md)
 
+[Day 7: Linked List KthFromEnd](otherReadmes/ll-kthFromEndREADME.md)
+
