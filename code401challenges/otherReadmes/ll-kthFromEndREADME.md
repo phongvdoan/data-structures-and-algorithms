@@ -1,5 +1,7 @@
 # Challenge Summary
 <!-- Short summary or background information -->
+[Code](/code401challenges/src/main/java/code401challenges/linkedList/LinkedList.java)
+
 Write a method that finds the nth value from the end of the LinkedList
 ## Challenge Description
 <!-- Description of the challenge -->

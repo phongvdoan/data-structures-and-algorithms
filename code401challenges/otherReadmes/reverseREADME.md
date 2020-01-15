@@ -1,6 +1,7 @@
 # Reverse an Array
 <!-- Short summary or background information -->
 [Code](/code401challenges/src/main/java/code401challenges/ArrayReverse.java)
+
 A function called reverse array which takes an array as an argument and returns an array with elements in reverse order.
 ## Challenge
 <!-- Description of the challenge -->

@@ -1,6 +1,7 @@
 # Challenge Summary
 <!-- Short summary or background information -->
 [Code](/code401challenges/src/main/java/code401challenges/BinarySearch.java)
+
  A binary search of a element within an array.
 
 ## Challenge Description
