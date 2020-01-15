@@ -3,6 +3,7 @@ package code401challenges.linkedList;
 
 import code401challenges.InvalidInputException;
 import org.apache.commons.math3.exception.NullArgumentException;
+import org.apache.commons.math3.exception.OutOfRangeException;
 
 import java.util.NoSuchElementException;
 import java.util.StringJoiner;
@@ -98,7 +99,7 @@ public class LinkedList {
             current = current.next;
         }
         if(k > counter){
-            throw new NullPointerException("Value is larger than the list size");
+            throw new OutOfRangeException(k, 0, counter);
         }
         for(int i = 1; i < (counter - k); i++){
             this.head = this.head.next;
