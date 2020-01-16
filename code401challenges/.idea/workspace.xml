@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,10 +77,10 @@
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md" />
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md" />
         <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -97,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,15 +115,79 @@
               <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="otherReadmes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579150373638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579214167070" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -142,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.code401challenges [test]">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
     <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,8 +291,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListSecondParams" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListFirstParams" />
         <item itemvalue="JUnit.LinkedListTest.testMergeListsThree" />
@@ -249,12 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testMergeLists - 2020.01.15 at 20h 49m 47s.xml">
-      <configuration name="LinkedListTest.testMergeLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 02s.xml">
-      <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 15s.xml">
       <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
     </history-entry>
@@ -279,6 +337,12 @@
     <history-entry file="code401challenges_[test] - 2020.01.15 at 20h 52m 36s.xml">
       <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="LinkedListTest - 2020.01.16 at 14h 21m 53s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2020.01.16 at 14h 33m 29s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +356,7 @@
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3497791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38070694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="2535">
+          <caret line="155" column="56" selection-start-line="155" selection-start-column="56" selection-end-line="155" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -506,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
+        <state relative-caret-position="281">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -90,14 +90,19 @@ public class LinkedList {
             }
             return false;
     }
-
-    public int kthFromEnd(int k) {
+    public int size(){
         int counter = 0;
         Node current = this.head;
         while (current != null){
             counter++;
             current = current.next;
         }
+        return counter;
+    }
+
+    public int kthFromEnd(int k) {
+        int counter = this.size();
+
         if(k > counter){
             throw new OutOfRangeException(k, 0, counter);
         }
@@ -111,20 +116,20 @@ public class LinkedList {
         if(listOne.head == null){
             return listTwo;
         }
-        if(listTwo.head == null) {
-            return listOne;
-        }
+
 
         Node one = listOne.head;
         Node two = listTwo.head;
-        while(one.next != null) {
-            listTwo.head = two.next;
-            two.next = one.next;
+        while(one != null && two != null) {
+            Node tempOne = one.next;
+            Node tempTwo = two.next;
+            if (one.next != null){
+                two.next = one.next;
+            }
             one.next = two;
-            one = two.next;
-            two = listTwo.head;
+            one = tempOne;
+            two = tempTwo;
         }
-        one.next = two;
         return listOne;
     }
 
