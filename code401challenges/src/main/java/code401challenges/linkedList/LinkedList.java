@@ -107,6 +107,36 @@ public class LinkedList {
         return this.head.value;
     }
 
+    public static LinkedList mergeList(LinkedList listOne, LinkedList listTwo) {
+        if(listOne.head == null){
+            return listTwo;
+        }
+        if(listTwo.head == null) {
+            return listOne;
+        }
+
+        Node one = listOne.head;
+        Node two = listTwo.head;
+        while(one.next != null) {
+            listTwo.head = two.next;
+            two.next = one.next;
+            one.next = two;
+            one = two.next;
+            two = listTwo.head;
+        }
+        one.next = two;
+        return listOne;
+    }
+
+    public static Node mergeListTwo(Node listOne, Node listTwo){
+        if(listOne == null) {
+            return listTwo;
+        } else {
+            listOne.next = mergeListTwo(listTwo, listOne.next);
+            return listOne;
+        }
+    }
+
     public String toString() {
         Node currentNode = this.head;
         StringJoiner result = new StringJoiner(" } -> { ", "{ ", " }");
