@@ -3,6 +3,7 @@ package code401challenges.linkedlist;
 
 import code401challenges.InvalidInputException;
 import code401challenges.linkedList.LinkedList;
+import org.apache.commons.math3.exception.OutOfRangeException;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -132,7 +133,7 @@ public class LinkedListTest {
     }
 
     @Test
-            (expected = NullPointerException.class)
+            (expected = OutOfRangeException.class)
     public void testLinkedList_greaterThanLengthFromLast(){
         System.out.println(testList.kthFromEnd(10));
 
@@ -157,7 +158,7 @@ public class LinkedListTest {
     }
 
     @Test
-            (expected = NullPointerException.class)
+            (expected = OutOfRangeException.class)
     public void testLinkedList_greaterThanLengthFromLastTwo(){
         System.out.println(testList.kthFromEnd(10));
 
