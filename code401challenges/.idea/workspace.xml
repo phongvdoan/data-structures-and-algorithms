@@ -122,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579059364438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579144787013" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,6 +137,25 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
@@ -152,7 +171,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testLinkedList_1tstFromTheLastMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testLinkedList_0thFromTheLastMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -162,23 +181,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_1tstFromTheLastMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testLinkedList_greaterThanLengthFromLastTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testLinkedList_greaterThanLengthFromLastTwo" />
+      <option name="METHOD_NAME" value="testLinkedList_0thFromTheLastMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.testLinkedList_0thFromTheLastMethod" />
+        <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="JUnit.LinkedListTest.testLinkedList_negativeValueFromLast" />
         <item itemvalue="JUnit.LinkedListTest.testLinkedList_negativeValueFromLastTwo" />
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_greaterThanLengthFromLastTwo" />
-        <item itemvalue="JUnit.LinkedListTest.testLinkedList_1tstFromTheLastMethod" />
       </list>
     </recent_temporary>
   </component>
