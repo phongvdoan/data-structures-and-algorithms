@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,6 +42,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="code401challenges" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -52,7 +55,20 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,8 +96,8 @@
         <option value="$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md" />
-        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -97,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,15 +130,51 @@
               <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="otherReadmes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579150373638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579215776266" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,6 +194,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.code401challenges [test]">
+    <configuration name="code401challenges [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,65 +232,47 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayShiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
+      <option name="PACKAGE_NAME" value="code401challenges" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.ArrayShiftTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testMergeListsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeListsThree" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="code401challenges" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeLists_emptyLinkedListFirstParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeLists_emptyLinkedListSecondParams" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="code401challenges" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,10 +280,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.code401challenges [test]" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListSecondParams" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListFirstParams" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeListsThree" />
+        <item itemvalue="Gradle.code401challenges [check]" />
+        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.ArrayShiftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,34 +301,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testMergeLists - 2020.01.15 at 20h 49m 47s.xml">
-      <configuration name="LinkedListTest.testMergeLists" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 00s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 02s.xml">
-      <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
+    <history-entry file="code401challenges_[check] - 2020.01.16 at 15h 03m 30s.xml">
+      <configuration name="code401challenges [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 15s.xml">
-      <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
+    <history-entry file="code401challenges_[check] - 2020.01.16 at 15h 03m 33s.xml">
+      <configuration name="code401challenges [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsThree - 2020.01.15 at 20h 50m 28s.xml">
-      <configuration name="LinkedListTest.testMergeListsThree" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 35s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsThree - 2020.01.15 at 20h 50m 54s.xml">
-      <configuration name="LinkedListTest.testMergeListsThree" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 53s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 06s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 54s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 18s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 06s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 51m 32s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 26s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 51m 38s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 53s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.15 at 20h 52m 36s.xml">
+    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 05m 00s.xml">
       <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -291,8 +343,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3497791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35493374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,7 +369,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3298969" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.3298969" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.3298969" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -412,26 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -441,16 +474,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/otherReadmes/linkedListREADME.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,20 +517,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="184">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
+        <state relative-caret-position="195">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
