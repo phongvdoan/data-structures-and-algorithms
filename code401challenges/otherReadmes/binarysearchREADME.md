@@ -14,3 +14,38 @@ We set the right and left integers to the index of the first and last element wi
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](../assets/array-binary-search.jpg)
+
+
+
+# Stacks and Queues
+
+## Stack
+-	A data structure that consists of nodes where each reference the next but not the previous.
+-	Push 
+    -	Nodes are added
+-	Pop
+    -	Nodes that are removed
+-	Top
+    -	Top of stack
+-	Peek
+    -	View the top node
+-	Is First In Last Out (FILO)
+-	Is Last In First Out (LIFO)
+-	Pushing is     -(1)
+-	Pop is     -(1)
+-	Peek is     -(1)
+
+## Queue
+-	Enqueue (    -(1))
+    -	Nodes that are added
+-	Dequeue (    -(1))
+    -	Nodes that are removed
+-	Front
+    -	First node
+-	Rear
+    -	Last node
+-	Peek (    -(1))
+    -	View the top node
+-	First In First Out (FIFO)
+-	Last In Last Out (LILO)
+
