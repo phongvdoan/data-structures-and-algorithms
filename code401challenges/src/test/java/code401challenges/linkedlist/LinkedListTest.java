@@ -170,5 +170,70 @@ public class LinkedListTest {
         System.out.println(testList.kthFromEnd(-1));
 
     }
+    
+    @Test
+    public void testMergeLists(){
+        LinkedList testOne = new LinkedList();
+        testOne.insert(2);
+        testOne.insert(3);
+        testOne.insert(1);
+
+        LinkedList testTwo = new LinkedList();
+        testTwo.insert(4);
+        testTwo.insert(9);
+        testTwo.insert(5);
+
+       assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { 4 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
+    }
+
+    @Test
+    public void testMergeListsTwo(){
+        LinkedList testOne = new LinkedList();
+        testOne.insert(3);
+        testOne.insert(1);
+
+        LinkedList testTwo = new LinkedList();
+        testTwo.insert(4);
+        testTwo.insert(9);
+        testTwo.insert(5);
+
+        assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 4 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
+    }
+
+    @Test
+    public void testMergeListsThree(){
+        LinkedList testOne = new LinkedList();
+        testOne.insert(2);
+        testOne.insert(3);
+        testOne.insert(1);
+
+        LinkedList testTwo = new LinkedList();
+        testTwo.insert(9);
+        testTwo.insert(5);
+
+        assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
+    }
+
+    @Test
+    public void testMergeLists_emptyLinkedListFirstParams(){
+        LinkedList testOne = new LinkedList();
+
+        LinkedList testTwo = new LinkedList();
+        testTwo.insert(9);
+        testTwo.insert(5);
+
+        assertEquals("It is not merging!", "{ 5 } -> { 9 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
+    }
+
+    @Test
+    public void testMergeLists_emptyLinkedListSecondParams(){
+        LinkedList testOne = new LinkedList();
+        testOne.insert(9);
+        testOne.insert(5);
+
+        LinkedList testTwo = new LinkedList();
+
+        assertEquals("It is not merging!", "{ 5 } -> { 9 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
+    }
 
 }
