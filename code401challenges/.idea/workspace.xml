@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,32 +52,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="121" column="32" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3435">
-              <caret line="222" selection-start-line="222" selection-end-line="222" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -148,7 +123,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579149743000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579150373638" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="Gradle.code401challenges [test]">
     <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testMergeListsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testMergeListsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -207,7 +187,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeListsTwo" />
+      <option name="METHOD_NAME" value="testMergeListsThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeListsTwo" />
         <item itemvalue="Gradle.code401challenges [test]" />
+        <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListSecondParams" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListFirstParams" />
+        <item itemvalue="JUnit.LinkedListTest.testMergeListsThree" />
       </list>
     </recent_temporary>
   </component>
@@ -269,35 +249,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 31m 19s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testMergeLists - 2020.01.15 at 20h 49m 47s.xml">
+      <configuration name="LinkedListTest.testMergeLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 32m 12s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 32m 27s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 32m 38s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.15 at 20h 35m 00s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 35m 25s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 38m 54s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 39m 06s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 39m 36s.xml">
+    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 02s.xml">
       <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 39m 42s.xml">
+    <history-entry file="LinkedListTest_testMergeListsTwo - 2020.01.15 at 20h 50m 15s.xml">
+      <configuration name="LinkedListTest.testMergeListsTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testMergeListsThree - 2020.01.15 at 20h 50m 28s.xml">
+      <configuration name="LinkedListTest.testMergeListsThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testMergeListsThree - 2020.01.15 at 20h 50m 54s.xml">
+      <configuration name="LinkedListTest.testMergeListsThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 06s.xml">
+      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 18s.xml">
+      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 51m 32s.xml">
+      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2020.01.15 at 20h 51m 38s.xml">
       <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="code401challenges_[test] - 2020.01.15 at 20h 52m 36s.xml">
+      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -311,7 +291,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3497791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32840237" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,27 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="121" column="32" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,10 +487,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3435">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="2790">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

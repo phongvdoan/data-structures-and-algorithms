@@ -177,17 +177,13 @@ public class LinkedListTest {
         testOne.insert(2);
         testOne.insert(3);
         testOne.insert(1);
+
         LinkedList testTwo = new LinkedList();
         testTwo.insert(4);
         testTwo.insert(9);
         testTwo.insert(5);
 
-        System.out.println("testOne = " + testOne);
-        System.out.println("testTwo = " + testTwo);
-
-        LinkedList.mergeList(testOne,testTwo);
-        System.out.println(testOne.toString());
-
+       assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { 4 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
     }
 
     @Test
@@ -195,16 +191,13 @@ public class LinkedListTest {
         LinkedList testOne = new LinkedList();
         testOne.insert(3);
         testOne.insert(1);
+
         LinkedList testTwo = new LinkedList();
         testTwo.insert(4);
         testTwo.insert(9);
         testTwo.insert(5);
 
-        System.out.println("testOne = " + testOne);
-        System.out.println("testTwo = " + testTwo);
-
-        System.out.println(LinkedList.mergeList(testOne,testTwo));
-
+        assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 4 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
     }
 
     @Test
@@ -213,16 +206,12 @@ public class LinkedListTest {
         testOne.insert(2);
         testOne.insert(3);
         testOne.insert(1);
+
         LinkedList testTwo = new LinkedList();
         testTwo.insert(9);
         testTwo.insert(5);
 
-
-        System.out.println("testOne = " + testOne);
-        System.out.println("testTwo = " + testTwo);
-
-        System.out.println(LinkedList.mergeList(testOne,testTwo));
-
+        assertEquals("It is not merging!", "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
     }
 
     @Test
@@ -233,11 +222,7 @@ public class LinkedListTest {
         testTwo.insert(9);
         testTwo.insert(5);
 
-        System.out.println("testOne = " + testOne);
-        System.out.println("testTwo = " + testTwo);
-
-        System.out.println(LinkedList.mergeList(testOne,testTwo));
-
+        assertEquals("It is not merging!", "{ 5 } -> { 9 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
     }
 
     @Test
@@ -248,12 +233,7 @@ public class LinkedListTest {
 
         LinkedList testTwo = new LinkedList();
 
-
-        System.out.println("testOne = " + testOne);
-        System.out.println("testTwo = " + testTwo);
-
-        System.out.println(LinkedList.mergeList(testOne,testTwo));
-
+        assertEquals("It is not merging!", "{ 5 } -> { 9 } -> { NULL }", LinkedList.mergeList(testOne,testTwo).toString());
     }
 
 }

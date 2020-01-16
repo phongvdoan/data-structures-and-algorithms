@@ -12,3 +12,5 @@
 [Day 6: Linked List Insertion](code401challenges/otherReadmes/ll-insertionREADME.md)
 
 [Day 7: Linked List KthFromEnd](code401challenges/otherReadmes/ll-kthFromEndREADME.md)
+
+[Day 8: Linked List Merge](code401challenges/otherReadmes/ll-mergeREADME.md)

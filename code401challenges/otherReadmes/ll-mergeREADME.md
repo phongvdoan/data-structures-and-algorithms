@@ -1,5 +1,7 @@
 # Challenge Summary
 <!-- Short summary or background information -->
+[Code](/code401challenges/src/main/java/code401challenges/linkedList/LinkedList.java)
+
 A static utility method that zips two linked lists into one.
 
 ## Challenge Description
