@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
+            <state relative-caret-position="743">
+              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579547705829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579548001334" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -272,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackAndQueuesTest.dequeueOutOfQueue">
+  <component name="RunManager" selected="JUnit.StackAndQueuesTest">
     <configuration name="StackAndQueuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
@@ -304,7 +304,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackAndQueuesTest.emptyQueueAfterMultipleDequeues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -314,7 +314,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
-      <option name="METHOD_NAME" value="emptyStackAfterMultiplePops" />
+      <option name="METHOD_NAME" value="emptyQueueAfterMultipleDequeues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -336,7 +336,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackAndQueuesTest.peekIntoQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
@@ -346,7 +346,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
       <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
-      <option name="METHOD_NAME" value="peekTheNextItemOnTheStack" />
+      <option name="METHOD_NAME" value="peekIntoQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackAndQueuesTest" />
+        <item itemvalue="JUnit.StackAndQueuesTest.emptyQueueAfterMultipleDequeues" />
+        <item itemvalue="JUnit.StackAndQueuesTest.peekIntoQueue" />
         <item itemvalue="JUnit.StackAndQueuesTest.dequeueOutOfQueue" />
         <item itemvalue="JUnit.StackAndQueuesTest.enqueueIntoQueue" />
-        <item itemvalue="JUnit.StackAndQueuesTest" />
-        <item itemvalue="JUnit.StackAndQueuesTest.emptyStackAfterMultiplePops" />
-        <item itemvalue="JUnit.StackAndQueuesTest.peekTheNextItemOnTheStack" />
       </list>
     </recent_temporary>
   </component>
@@ -376,24 +376,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 51m 14s.xml">
-      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 15s.xml">
-      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 19s.xml">
-      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 36s.xml">
-      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 55m 44s.xml">
-      <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 56m 23s.xml">
-      <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 56m 33s.xml">
       <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
     </history-entry>
@@ -405,6 +387,24 @@
     </history-entry>
     <history-entry file="StackAndQueuesTest_enqueueIntoQueue - 2020.01.20 at 11h 11m 06s.xml">
       <configuration name="StackAndQueuesTest.enqueueIntoQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest_dequeueOutOfQueue - 2020.01.20 at 11h 14m 18s.xml">
+      <configuration name="StackAndQueuesTest.dequeueOutOfQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest_peekIntoQueue - 2020.01.20 at 11h 17m 31s.xml">
+      <configuration name="StackAndQueuesTest.peekIntoQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest_peekIntoQueue - 2020.01.20 at 11h 17m 52s.xml">
+      <configuration name="StackAndQueuesTest.peekIntoQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest_emptyQueueAfterMultipleDequeues - 2020.01.20 at 11h 19m 09s.xml">
+      <configuration name="StackAndQueuesTest.emptyQueueAfterMultipleDequeues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest_emptyQueueAfterMultipleDequeues - 2020.01.20 at 11h 19m 29s.xml">
+      <configuration name="StackAndQueuesTest.emptyQueueAfterMultipleDequeues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackAndQueuesTest - 2020.01.20 at 11h 20m 03s.xml">
+      <configuration name="StackAndQueuesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -429,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840237" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="30" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -675,10 +665,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
+        <state relative-caret-position="743">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
