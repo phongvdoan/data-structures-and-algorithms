@@ -55,12 +55,37 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="377">
+              <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="30" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,6 +123,12 @@
         <option value="$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/Stack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/stackandqueues/StackAndQueuesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java" />
       </list>
     </option>
   </component>
@@ -113,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,6 +167,45 @@
               <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
@@ -165,16 +237,23 @@
               <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579215776266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579547705829" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -193,97 +272,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.code401challenges [test]">
-    <configuration name="code401challenges [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="check" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ArrayShiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StackAndQueuesTest.dequeueOutOfQueue">
+    <configuration name="StackAndQueuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
+          <option name="PATTERN" value="code401challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.ArrayShiftTest" />
+      <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackAndQueuesTest.dequeueOutOfQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
+          <option name="PATTERN" value="code401challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
+      <option name="METHOD_NAME" value="dequeueOutOfQueue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401challenges.*" />
+          <option name="PATTERN" value="code401challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.LibraryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
+      <option name="METHOD_NAME" value="emptyStackAfterMultiplePops" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackAndQueuesTest.enqueueIntoQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
+      <option name="METHOD_NAME" value="enqueueIntoQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401challenges.stacksandqueues.StackAndQueuesTest" />
+      <option name="METHOD_NAME" value="peekTheNextItemOnTheStack" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.code401challenges [test]" />
-        <item itemvalue="Gradle.code401challenges [check]" />
-        <item itemvalue="JUnit.LibraryTest" />
-        <item itemvalue="JUnit.BinarySearchTest" />
-        <item itemvalue="JUnit.ArrayShiftTest" />
+        <item itemvalue="JUnit.StackAndQueuesTest.dequeueOutOfQueue" />
+        <item itemvalue="JUnit.StackAndQueuesTest.enqueueIntoQueue" />
+        <item itemvalue="JUnit.StackAndQueuesTest" />
+        <item itemvalue="JUnit.StackAndQueuesTest.emptyStackAfterMultiplePops" />
+        <item itemvalue="JUnit.StackAndQueuesTest.peekTheNextItemOnTheStack" />
       </list>
     </recent_temporary>
   </component>
@@ -301,35 +376,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 00s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 51m 14s.xml">
+      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[check] - 2020.01.16 at 15h 03m 30s.xml">
-      <configuration name="code401challenges [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 15s.xml">
+      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[check] - 2020.01.16 at 15h 03m 33s.xml">
-      <configuration name="code401challenges [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 19s.xml">
+      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 35s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 10h 53m 36s.xml">
+      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 53s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 55m 44s.xml">
+      <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 03m 54s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 56m 23s.xml">
+      <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 06s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_peekTheNextItemOnTheStack - 2020.01.20 at 10h 56m 33s.xml">
+      <configuration name="StackAndQueuesTest.peekTheNextItemOnTheStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 26s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_emptyStackAfterMultiplePops - 2020.01.20 at 11h 05m 01s.xml">
+      <configuration name="StackAndQueuesTest.emptyStackAfterMultiplePops" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 04m 53s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_enqueueIntoQueue - 2020.01.20 at 11h 10m 42s.xml">
+      <configuration name="StackAndQueuesTest.enqueueIntoQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 05m 00s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="StackAndQueuesTest_enqueueIntoQueue - 2020.01.20 at 11h 11m 06s.xml">
+      <configuration name="StackAndQueuesTest.enqueueIntoQueue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -345,7 +420,7 @@
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35493374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36008838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32840237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,7 +444,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3298969" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.3298969" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3298969" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -489,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otherReadmes/ll-kthFromEndREADME.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -514,16 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +605,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="480">
           <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -557,10 +629,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/stacksandqueues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/stacksandqueues/StackAndQueuesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
