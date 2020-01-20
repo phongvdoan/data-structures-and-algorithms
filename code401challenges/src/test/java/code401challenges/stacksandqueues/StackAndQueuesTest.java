@@ -69,12 +69,12 @@ public class StackAndQueuesTest {
         testQueue.enqueue(5);
         testQueue.enqueue(4);
         testQueue.enqueue(3);
+        testQueue.enqueue(2);
+        testQueue.enqueue(3);
     }
 
     @Test
     public void enqueueMultiIntoQueue(){
-        testQueue.enqueue(2);
-        testQueue.enqueue(3);
         assertEquals("No value got enqueued", "{ 5 } -> { 4 } -> { 3 } -> { 2 } -> { 3 } -> { NULL }", testQueue.toString());
 
     }
@@ -83,6 +83,7 @@ public class StackAndQueuesTest {
     public void dequeueOutOfQueue(){
         int dequeuedValue = testQueue.dequeue();
         assertEquals("Did not dequeued front value", 5, dequeuedValue);
+        System.out.println(testQueue.toString());
     }
 
     @Test
