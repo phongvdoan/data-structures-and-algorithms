@@ -4,6 +4,7 @@ import java.util.StringJoiner;
 
 public class Queue {
     Node front;
+    Node back;
 
     public Queue() {
         this.front = null;
@@ -11,15 +12,15 @@ public class Queue {
 
     public void enqueue(int value){
         Node node = new Node( value, null);
-        if ( this.front == null){
+        Node currentNode = this.back;
+        if(this.front == null){
             this.front = node;
+            this.back = node;
         } else {
-            Node currentNode = this.front;
-            while(currentNode.next != null) {
-                currentNode = currentNode.next;
-            }
             currentNode.next = node;
+            this.back = node;
         }
+
 
     }
 

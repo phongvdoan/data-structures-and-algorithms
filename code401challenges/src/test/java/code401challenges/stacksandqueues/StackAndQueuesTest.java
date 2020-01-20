@@ -74,7 +74,8 @@ public class StackAndQueuesTest {
     @Test
     public void enqueueMultiIntoQueue(){
         testQueue.enqueue(2);
-        assertEquals("No value got enqueued", "{ 5 } -> { 4 } -> { 3 } -> { 2 } -> { NULL }", testQueue.toString());
+        testQueue.enqueue(3);
+        assertEquals("No value got enqueued", "{ 5 } -> { 4 } -> { 3 } -> { 2 } -> { 3 } -> { NULL }", testQueue.toString());
 
     }
 
@@ -89,7 +90,7 @@ public class StackAndQueuesTest {
         enqueueMultiIntoQueue();
         int peekedValue = testQueue.peek();
         assertEquals("Did not peek correct value", 5,peekedValue);
-        assertEquals("Peek Method removed a value", "{ 5 } -> { 4 } -> { 3 } -> { 2 } -> { NULL }", testQueue.toString());
+        assertEquals("Peek Method removed a value", "{ 5 } -> { 4 } -> { 3 } -> { 2 } -> { 3 } -> { NULL }", testQueue.toString());
     }
 
     @Test
@@ -99,7 +100,9 @@ public class StackAndQueuesTest {
         testQueue.dequeue();
         testQueue.dequeue();
         testQueue.dequeue();
+        testQueue.dequeue();
         assertEquals("No value got dequeued", "{ NULL }", testQueue.toString());
+        assertTrue("It is not empty", testQueue.isEmpty());
     }
 
 
