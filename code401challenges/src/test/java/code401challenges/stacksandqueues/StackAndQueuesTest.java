@@ -6,8 +6,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class StackAndQueuesTest {
-    Stack testStack;
-    Queue testQueue;
+    Stack <Integer> testStack;
+    Queue <Integer> testQueue;
 
     @Before
     public void setUpStack() {

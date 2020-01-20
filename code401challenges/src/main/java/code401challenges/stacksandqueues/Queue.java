@@ -2,17 +2,17 @@ package code401challenges.stacksandqueues;
 
 import java.util.StringJoiner;
 
-public class Queue {
-    Node front;
-    Node back;
+public class Queue <E> {
+    Node <E> front;
+    Node <E> back;
 
     public Queue() {
         this.front = null;
     }
 
-    public void enqueue(int value){
-        Node node = new Node( value, null);
-        Node currentNode = this.back;
+    public void enqueue(E value){
+        Node <E> node = new Node( value, null);
+        Node <E> currentNode = this.back;
         if(this.front == null){
             this.front = node;
             this.back = node;
@@ -24,14 +24,14 @@ public class Queue {
 
     }
 
-    public int dequeue(){
-        int loneValue = this.front.value;
+    public E dequeue(){
+        E loneValue = this.front.value;
         this.front = this.front.next;
         return loneValue;
     }
 
-    public int peek(){
-        int loneValue = this.front.value;
+    public E peek(){
+        E loneValue = this.front.value;
         return loneValue;
     }
 

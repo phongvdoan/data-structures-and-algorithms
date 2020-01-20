@@ -2,9 +2,9 @@ package code401challenges.stacksandqueues;
 
 import java.util.StringJoiner;
 
-public class Stack {
+public class Stack <E> {
 
-    public Node top;
+    public Node <E> top;
 
     public Stack() {
         this.top = null;
@@ -14,23 +14,19 @@ public class Stack {
         this.top = new Node(loneValue, this.top);
     }
 
-    public int pop() {
-        int loneValue = this.top.value;
+    public E pop() {
+        E loneValue = this.top.value;
         this.top = this.top.next;
         return loneValue;
     }
 
-    public int peek(){
-        int loneValue = this.top.value;
+    public E peek(){
+        E loneValue = this.top.value;
         return loneValue;
     }
 
     public boolean isEmpty() {
-        if(this.top == null){
-            return true;
-        } else {
-            return false;
-        }
+        return this.top == null;
     }
 
     public String toString() {
