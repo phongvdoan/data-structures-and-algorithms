@@ -22,8 +22,6 @@ public class Queue <E> {
             currentNode.next = node;
             this.back = node;
         }
-
-
     }
 
     public E dequeue(){
@@ -33,6 +31,9 @@ public class Queue <E> {
         }
         E loneValue = this.front.value;
         this.front = this.front.next;
+        if(this.front == null){
+            this.back = null;
+        }
         return loneValue;
     }
 
