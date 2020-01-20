@@ -1,5 +1,6 @@
 package code401challenges.stacksandqueues;
 
+import java.util.NoSuchElementException;
 import java.util.StringJoiner;
 
 public class Queue <E> {
@@ -8,6 +9,7 @@ public class Queue <E> {
 
     public Queue() {
         this.front = null;
+        this.back = null;
     }
 
     public void enqueue(E value){
@@ -25,22 +27,26 @@ public class Queue <E> {
     }
 
     public E dequeue(){
+        if(this.isEmpty()){
+            System.out.println("The Queue is empty");
+            throw new NoSuchElementException();
+        }
         E loneValue = this.front.value;
         this.front = this.front.next;
         return loneValue;
     }
 
     public E peek(){
+        if(this.isEmpty()){
+            System.out.println("The Queue is empty");
+            throw new NoSuchElementException();
+        }
         E loneValue = this.front.value;
         return loneValue;
     }
 
     public boolean isEmpty() {
-        if (this.front == null) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.front == null;
     }
 
     public String toString() {

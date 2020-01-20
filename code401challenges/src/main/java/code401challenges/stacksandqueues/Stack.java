@@ -1,5 +1,6 @@
 package code401challenges.stacksandqueues;
 
+import java.util.EmptyStackException;
 import java.util.StringJoiner;
 
 public class Stack <E> {
@@ -15,12 +16,19 @@ public class Stack <E> {
     }
 
     public E pop() {
+        if (this.top == null){
+            System.out.println("This stack is empty");
+            throw new EmptyStackException();
+        }
         E loneValue = this.top.value;
         this.top = this.top.next;
         return loneValue;
     }
 
     public E peek(){
+        if(this.isEmpty()) {
+            throw new EmptyStackException();
+        }
         E loneValue = this.top.value;
         return loneValue;
     }
