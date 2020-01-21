@@ -11,8 +11,8 @@ public class Stack <E> {
         this.top = null;
     }
 
-    public void push(int loneValue) {
-        this.top = new Node(loneValue, this.top);
+    public void push(E loneValue) {
+        this.top = new Node <> (loneValue, this.top);
     }
 
     public E pop() {
