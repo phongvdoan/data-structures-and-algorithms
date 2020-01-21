@@ -14,3 +14,5 @@
 [Day 7: Linked List KthFromEnd](code401challenges/otherReadmes/ll-kthFromEndREADME.md)
 
 [Day 8: Linked List Merge](code401challenges/otherReadmes/ll-mergeREADME.md)
+
+[Day 10: Stacks and Queues](code401challenges/otherReadmes/stackAndQueuesREADME.md)

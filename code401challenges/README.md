@@ -12,3 +12,5 @@
 [Day 7: Linked List KthFromEnd](otherReadmes/ll-kthFromEndREADME.md)
 
 [Day 8: Linked List Merge](otherReadmes/ll-mergeREADME.md)
+
+[Day 10: Stacks and Queues](otherReadmes/stackAndQueuesREADME.md)
