@@ -14,3 +14,5 @@
 [Day 8: Linked List Merge](otherReadmes/ll-mergeREADME.md)
 
 [Day 10: Stacks and Queues](otherReadmes/stackAndQueuesREADME.md)
+
+[Day 11: Queue with Stack](otherReadmes/psuedoQueueREADME.md)
