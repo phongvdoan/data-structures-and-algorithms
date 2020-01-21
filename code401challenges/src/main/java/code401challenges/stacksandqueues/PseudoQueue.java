@@ -22,6 +22,10 @@ public class PseudoQueue <E> {
          }
     }
 
+    public void enqueueTwo(E value) {
+        stackOne.push(value);
+    }
+
     public E dequeue(){
         if(stackOne.isEmpty()){
             throw new NoSuchElementException();
@@ -29,11 +33,24 @@ public class PseudoQueue <E> {
         return stackOne.pop();
     }
 
+    public E dequeueTwo() {
+        if(stackOne.isEmpty() && stackTwo.isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        if( stackTwo.isEmpty()){
+            while(!stackOne.isEmpty()) {
+                stackTwo.push(stackOne.pop());
+            }
+        }
+        return stackTwo.pop();
+    }
+
     public String toString() {
         StringJoiner result = new StringJoiner(" } -> { ", "{ ", " }");
-        while(stackOne.top != null){
-            result.add(String.valueOf(stackOne.top.value));
-            stackOne.top = stackOne.top.next;
+        Stack<E> stringStack = stackOne;
+        while(stringStack.top != null){
+            result.add(String.valueOf(stringStack.top.value));
+            stringStack.top = stringStack.top.next;
 
         }
         result.add("NULL");
