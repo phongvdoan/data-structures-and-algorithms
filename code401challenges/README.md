@@ -16,3 +16,5 @@
 [Day 10: Stacks and Queues](otherReadmes/stackAndQueuesREADME.md)
 
 [Day 11: Queue with Stack](otherReadmes/psuedoQueueREADME.md)
+
+[Day 12: AnimalShelter](otherReadmes/fifo-animal-shelterREADME.md)

@@ -18,3 +18,5 @@
 [Day 10: Stacks and Queues](code401challenges/otherReadmes/stackAndQueuesREADME.md)
 
 [Day 11: Queue with Stack](code401challenges/otherReadmes/psuedoQueueREADME.md)
+
+[Day 12: AnimalShelter](code401challenges/otherReadmes/fifo-animal-shelterREADME.md)
