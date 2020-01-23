@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -49,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -82,6 +83,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -95,13 +97,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest.dequeue_OtherThanCatOrDog">
-    <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MultiBracketValidationTest.testmultiBracketValidation_withNull">
+    <configuration name="MultiBracketValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.AnimalShelterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,12 +118,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.dequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiBracketValidationTest.testmultiBracketValidation_resultFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.AnimalShelterTest.dequeue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest.testmultiBracketValidation_resultFalse&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -136,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.dequeue_OtherThanCatOrDog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiBracketValidationTest.testmultiBracketValidation_resultFalseWithOneChar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.AnimalShelterTest.dequeue_OtherThanCatOrDog&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest.testmultiBracketValidation_resultFalseWithOneChar&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.enqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiBracketValidationTest.testmultiBracketValidation_resultTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.AnimalShelterTest.enqueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest.testmultiBracketValidation_resultTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,12 +178,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.enqueue_OtherThanCatOrDog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiBracketValidationTest.testmultiBracketValidation_withNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.AnimalShelterTest.enqueue_OtherThanCatOrDog&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest.testmultiBracketValidation_withNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -198,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalShelterTest.dequeue_OtherThanCatOrDog" />
-        <item itemvalue="Gradle.AnimalShelterTest.enqueue_OtherThanCatOrDog" />
-        <item itemvalue="Gradle.AnimalShelterTest.dequeue" />
-        <item itemvalue="Gradle.AnimalShelterTest.enqueue" />
-        <item itemvalue="Gradle.AnimalShelterTest" />
+        <item itemvalue="Gradle.MultiBracketValidationTest.testmultiBracketValidation_withNull" />
+        <item itemvalue="Gradle.MultiBracketValidationTest" />
+        <item itemvalue="Gradle.MultiBracketValidationTest.testmultiBracketValidation_resultFalseWithOneChar" />
+        <item itemvalue="Gradle.MultiBracketValidationTest.testmultiBracketValidation_resultFalse" />
+        <item itemvalue="Gradle.MultiBracketValidationTest.testmultiBracketValidation_resultTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +220,8 @@
       <updated>1578452659649</updated>
       <workItem from="1579645371847" duration="1304000" />
       <workItem from="1579662203610" duration="3953000" />
+      <workItem from="1579748286896" duration="6842000" />
+      <workItem from="1579803146630" duration="852000" />
     </task>
     <servers />
   </component>
@@ -242,54 +246,66 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1579671390927">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1579804000275">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792999" />
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390927" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579804000275" />
+    <state width="1400" height="249" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
     <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1579671390926">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1579804000272">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792995" />
-    <state width="1398" height="302" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390926" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579804000272" />
+    <state width="1400" height="249" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1579671390926">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1579804000271">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792994" />
-    <state width="1398" height="302" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390926" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579804000271" />
+    <state width="1400" height="249" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259951" />
     <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1579671390927">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1579804000274">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792997" />
-    <state width="1398" height="302" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390927" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579804000274" />
+    <state width="1400" height="249" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1579671390929">
+    <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916346" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390929" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1579671390928">
+    <state width="1400" height="249" key="GridCell.Tab.1.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259954" />
+    <state width="1400" height="249" key="GridCell.Tab.1.center" timestamp="1579756259953">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390928" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1579671390928">
+    <state width="1400" height="249" key="GridCell.Tab.1.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
+    <state width="1400" height="249" key="GridCell.Tab.1.left" timestamp="1579756259953">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390928" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1579671390928">
+    <state width="1400" height="249" key="GridCell.Tab.1.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
+    <state width="1400" height="249" key="GridCell.Tab.1.right" timestamp="1579756259954">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916345" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579671390928" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579668866086">
+    <state width="1400" height="249" key="GridCell.Tab.1.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259954" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1579803253350">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579803253350" />
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1579803148129">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579668866086" />
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579750686549">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579750686549" />
   </component>
   <component name="masterDetails">
     <states>
