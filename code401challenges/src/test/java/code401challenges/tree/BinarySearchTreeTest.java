@@ -3,6 +3,9 @@ package code401challenges.tree;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class BinarySearchTreeTest {
@@ -32,8 +35,31 @@ public class BinarySearchTreeTest {
 
     @Test
     public void testPreOrder() {
-        System.out.println(testTree.preorder().toString());
-        Object[] expected = new Object[]{5,6,4};
-        assertArrayEquals(expected, testTree.preorder());
+        testTree.add(10);
+        testTree.add(1);
+        testTree.add(99);
+        System.out.println(Arrays.toString(testTree.preorder()));
+        Integer[] expected = new Integer[]{5,4,1, 6, 10, 99};
+        assertEquals(Arrays.toString(expected),Arrays.toString(testTree.preorder()));
+    }
+
+    @Test
+    public void testInOrder() {
+        testTree.add(10);
+        testTree.add(1);
+        testTree.add(99);
+        System.out.println(Arrays.toString(testTree.inOrder()));
+        Integer[] expected = new Integer[]{1, 4, 5, 6, 10, 99};
+        assertEquals(Arrays.toString(expected),Arrays.toString(testTree.inOrder()));
+    }
+
+    @Test
+    public void testPostOrder() {
+        testTree.add(10);
+        testTree.add(1);
+        testTree.add(99);
+        System.out.println(Arrays.toString(testTree.postOrder()));
+        Integer[] expected = new Integer[]{1, 4, 99, 10, 6, 5};
+        assertEquals(Arrays.toString(expected),Arrays.toString(testTree.postOrder()));
     }
 }

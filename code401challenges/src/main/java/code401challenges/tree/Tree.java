@@ -1,63 +1,61 @@
 package code401challenges.tree;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+
+// https://howtodoinjava.com/java/collections/arraylist/convert-arraylist-to-array/
+//used to convert ArrayList to arrays and print them out
 public class Tree {
 
     Node root;
-    ArrayList <Integer> preOrderArr;
-    ArrayList <Integer> inOrderArr;
-    ArrayList <Integer> postOrderArr;
 
     public Tree() {
         this.root = null;
-        preOrderArr = new ArrayList<>();
-        inOrderArr = new ArrayList<>();
-        postOrderArr = new ArrayList<>();
-
     }
 
-    public Object[] preorder(){
-        return preorder(root);
+    public Integer[] preorder(){
+        ArrayList<Integer> preOrderArr = new ArrayList<>();
+        return preorder(root, preOrderArr);
     }
 
-    private Object[] preorder(Node root){
+    private Integer[] preorder(Node root, ArrayList<Integer> preOrderArr){
 
         if (root != null) {
            preOrderArr.add(root.value);
-            preorder(root.leftNode);
-            preorder(root.rightNode);
+            preorder(root.leftNode, preOrderArr);
+            preorder(root.rightNode,preOrderArr);
         }
 
-        return preOrderArr.toArray();
+        return preOrderArr.toArray(new Integer[preOrderArr.size()]);
     }
 
-    public Object[] inOrder(){
-        return inOrder(root);
+    public Integer[] inOrder(){
+        ArrayList <Integer> inOrderArr = new ArrayList<>();
+        return inOrder(root, inOrderArr);
     }
 
-    private Object[] inOrder(Node root) {
+    private Integer[] inOrder(Node root, ArrayList <Integer> inOrderArr) {
         if(root != null){
-            inOrder(root.leftNode);
+            inOrder(root.leftNode, inOrderArr);
             inOrderArr.add(root.value);
-            inOrder(root.rightNode);
+            inOrder(root.rightNode, inOrderArr);
         }
-        return inOrderArr.toArray();
+        return inOrderArr.toArray(new Integer[inOrderArr.size()]);
     }
 
-    public Object[] postOrder(){
-        return postOrder(root);
+    public Integer[] postOrder(){
+        ArrayList <Integer> postOrderArr = new ArrayList<>();
+        return postOrder(root, postOrderArr);
     }
 
 
-    private Object[] postOrder(Node root) {
+    private Integer[] postOrder(Node root, ArrayList <Integer> postOrderArr) {
         if(root != null){
-            postOrder(root.leftNode);
-            postOrder(root.rightNode);
+            postOrder(root.leftNode, postOrderArr);
+            postOrder(root.rightNode,postOrderArr);
             postOrderArr.add(root.value);
         }
-        return postOrderArr.toArray();
+        return postOrderArr.toArray(new Integer[postOrderArr.size()]);
     }
 
 

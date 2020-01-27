@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.testPreOrder">
+  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.testPostOrder">
     <configuration name="BinarySearchTreeTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,6 +139,46 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="BinarySearchTreeTest.testInOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testInOrder&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySearchTreeTest.testPostOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testPostOrder&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BinarySearchTreeTest.testPreOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,53 +199,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MultiBracketValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MultiBracketValidationTest.testmultiBracketValidation_resultTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.MultiBracketValidationTest.testmultiBracketValidation_resultTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTreeTest.testPostOrder" />
+        <item itemvalue="Gradle.BinarySearchTreeTest.testInOrder" />
         <item itemvalue="Gradle.BinarySearchTreeTest.testPreOrder" />
         <item itemvalue="Gradle.BinarySearchTreeTest.testContainsMethod" />
         <item itemvalue="Gradle.BinarySearchTreeTest.add" />
-        <item itemvalue="Gradle.MultiBracketValidationTest.testmultiBracketValidation_resultTrue" />
-        <item itemvalue="Gradle.MultiBracketValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,7 @@
       <workItem from="1579803146630" duration="852000" />
       <workItem from="1579804639448" duration="1397000" />
       <workItem from="1579820758164" duration="330000" />
-      <workItem from="1580144532394" duration="6546000" />
+      <workItem from="1580144532394" duration="7828000" />
     </task>
     <servers />
   </component>
@@ -249,32 +251,32 @@
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580152424900">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580154084898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792999" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580152424900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580154084898" />
     <state width="1400" height="249" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
     <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580152424899">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580154084897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792995" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580152424899" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580154084897" />
     <state width="1400" height="249" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580152424898">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580154084896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792994" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580152424898" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580154084896" />
     <state width="1400" height="249" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259951" />
     <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580152424899">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580154084898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792997" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580152424899" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580154084898" />
     <state width="1400" height="249" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
     <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">
