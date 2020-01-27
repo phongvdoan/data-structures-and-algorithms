@@ -1,6 +1,7 @@
 package code401challenges.tree;
 
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 
 // https://howtodoinjava.com/java/collections/arraylist/convert-arraylist-to-array/
@@ -15,6 +16,9 @@ public class Tree {
 
     public Integer[] preorder(){
         ArrayList<Integer> preOrderArr = new ArrayList<>();
+        if(root == null){
+            throw new NoSuchElementException("There are no Nodes in the tree.");
+        }
         return preorder(root, preOrderArr);
     }
 
@@ -31,6 +35,10 @@ public class Tree {
 
     public Integer[] inOrder(){
         ArrayList <Integer> inOrderArr = new ArrayList<>();
+
+        if(root == null){
+            throw new NoSuchElementException("There are no Nodes in the tree.");
+        }
         return inOrder(root, inOrderArr);
     }
 
@@ -45,6 +53,11 @@ public class Tree {
 
     public Integer[] postOrder(){
         ArrayList <Integer> postOrderArr = new ArrayList<>();
+
+        if(root == null){
+            throw new NoSuchElementException("There are no Nodes in the tree.");
+        }
+
         return postOrder(root, postOrderArr);
     }
 

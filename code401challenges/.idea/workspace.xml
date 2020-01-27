@@ -98,13 +98,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.testPostOrder">
-    <configuration name="BinarySearchTreeTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.testExceptionHandler">
+    <configuration name="BinarySearchTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.add&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -119,12 +119,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTreeTest.testContainsMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinarySearchTreeTest.testExceptionHandler" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testContainsMethod&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testExceptionHandler&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTreeTest.testExceptionHandler" />
+        <item itemvalue="Gradle.BinarySearchTreeTest" />
         <item itemvalue="Gradle.BinarySearchTreeTest.testPostOrder" />
         <item itemvalue="Gradle.BinarySearchTreeTest.testInOrder" />
         <item itemvalue="Gradle.BinarySearchTreeTest.testPreOrder" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.testContainsMethod" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +225,7 @@
       <workItem from="1579803146630" duration="852000" />
       <workItem from="1579804639448" duration="1397000" />
       <workItem from="1579820758164" duration="330000" />
-      <workItem from="1580144532394" duration="7828000" />
+      <workItem from="1580144532394" duration="8780000" />
     </task>
     <servers />
   </component>
@@ -251,32 +251,32 @@
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580154084898">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580155674703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792999" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580154084898" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1400" height="249" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
     <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580154084897">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580155674703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792995" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580154084897" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1400" height="249" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580154084896">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580155674702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792994" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580154084896" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580155674702" />
     <state width="1400" height="249" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259951" />
     <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580154084898">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580155674703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="193" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579670792997" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580154084898" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1400" height="249" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
     <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
     <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">

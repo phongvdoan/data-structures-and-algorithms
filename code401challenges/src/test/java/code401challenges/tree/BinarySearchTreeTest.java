@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.NoSuchElementException;
 
 import static org.junit.Assert.*;
 
@@ -62,4 +63,12 @@ public class BinarySearchTreeTest {
         Integer[] expected = new Integer[]{1, 4, 99, 10, 6, 5};
         assertEquals(Arrays.toString(expected),Arrays.toString(testTree.postOrder()));
     }
+
+    @Test
+            (expected = NoSuchElementException.class)
+    public void testExceptionHandler(){
+        BinarySearchTree emptyTree = new BinarySearchTree();
+        emptyTree.preorder();
+    }
+
 }
