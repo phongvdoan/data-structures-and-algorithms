@@ -14,20 +14,20 @@ public class Tree {
         this.root = null;
     }
 
-    public Integer[] preorder(){
+    public Integer[] preOrder(){
         ArrayList<Integer> preOrderArr = new ArrayList<>();
         if(root == null){
             throw new NoSuchElementException("There are no Nodes in the tree.");
         }
-        return preorder(root, preOrderArr);
+        return preOrder(root, preOrderArr);
     }
 
-    private Integer[] preorder(Node root, ArrayList<Integer> preOrderArr){
+    private Integer[] preOrder(Node root, ArrayList<Integer> preOrderArr){
 
         if (root != null) {
            preOrderArr.add(root.value);
-            preorder(root.leftNode, preOrderArr);
-            preorder(root.rightNode,preOrderArr);
+            preOrder(root.leftNode, preOrderArr);
+            preOrder(root.rightNode,preOrderArr);
         }
 
         return preOrderArr.toArray(new Integer[preOrderArr.size()]);

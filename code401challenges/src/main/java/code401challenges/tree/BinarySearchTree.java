@@ -8,7 +8,7 @@ public class BinarySearchTree extends Tree {
 
     private Node add(Node node, int value) {
         if( node == null){
-            return new Node(value,null, null);
+            return new Node(value);
 
         }
         if (value < node.value){
