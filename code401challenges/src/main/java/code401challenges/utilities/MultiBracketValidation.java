@@ -19,9 +19,11 @@ public class MultiBracketValidation {
                 openingBrackets.addFirst(character);
             } else if (character == '}' && openingBrackets.isEmpty()
                     || character == ']' && openingBrackets.isEmpty()
-                    || character == ')' &&  openingBrackets.isEmpty()){
+                    || character == ')' &&  openingBrackets.isEmpty() ){
                 return false;
-            } else if (character == '}' && openingBrackets.peekFirst() == '{' || character == ']' && openingBrackets.peekFirst() == '[' || character == ')' &&  openingBrackets.peekFirst() == '(' ) {
+            } else if (character == '}' && openingBrackets.peekFirst() == '{'
+                    || character == ']' && openingBrackets.peekFirst() == '['
+                    || character == ')' &&  openingBrackets.peekFirst() == '(' ) {
 
                 System.out.println(openingBrackets.pollFirst());
 
