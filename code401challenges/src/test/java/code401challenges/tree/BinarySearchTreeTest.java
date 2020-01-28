@@ -39,7 +39,6 @@ public class BinarySearchTreeTest {
         testTree.add(10);
         testTree.add(1);
         testTree.add(99);
-        System.out.println(Arrays.toString(testTree.preOrder()));
         Integer[] expected = new Integer[]{5,4,1, 6, 10, 99};
         assertEquals(Arrays.toString(expected),Arrays.toString(testTree.preOrder()));
     }
@@ -49,7 +48,6 @@ public class BinarySearchTreeTest {
         testTree.add(10);
         testTree.add(1);
         testTree.add(99);
-        System.out.println(Arrays.toString(testTree.inOrder()));
         Integer[] expected = new Integer[]{1, 4, 5, 6, 10, 99};
         assertEquals(Arrays.toString(expected),Arrays.toString(testTree.inOrder()));
     }
@@ -59,7 +57,6 @@ public class BinarySearchTreeTest {
         testTree.add(10);
         testTree.add(1);
         testTree.add(99);
-        System.out.println(Arrays.toString(testTree.postOrder()));
         Integer[] expected = new Integer[]{1, 4, 99, 10, 6, 5};
         assertEquals(Arrays.toString(expected),Arrays.toString(testTree.postOrder()));
     }

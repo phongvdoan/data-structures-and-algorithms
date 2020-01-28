@@ -135,14 +135,14 @@ public class LinkedListTest {
     @Test
             (expected = OutOfRangeException.class)
     public void testLinkedList_greaterThanLengthFromLast(){
-        System.out.println(testList.kthFromEnd(10));
+       testList.kthFromEnd(10);
 
     }
 
     @Test
             (expected = NullPointerException.class)
     public void testLinkedList_negativeValueFromLast(){
-        System.out.println(testList.kthFromEnd(-1));
+        testList.kthFromEnd(-1);
 
     }
 
@@ -160,14 +160,14 @@ public class LinkedListTest {
     @Test
             (expected = OutOfRangeException.class)
     public void testLinkedList_greaterThanLengthFromLastTwo(){
-        System.out.println(testList.kthFromEnd(10));
+        testList.kthFromEnd(10);
 
     }
 
     @Test
             (expected = NullPointerException.class)
     public void testLinkedList_negativeValueFromLastTwo(){
-        System.out.println(testList.kthFromEnd(-1));
+        testList.kthFromEnd(-1);
 
     }
     

@@ -83,7 +83,6 @@ public class StackAndQueuesTest {
     public void dequeueOutOfQueue(){
         int dequeuedValue = testQueue.dequeue();
         assertEquals("Did not dequeued front value", 5, dequeuedValue);
-        System.out.println(testQueue.toString());
     }
 
     @Test

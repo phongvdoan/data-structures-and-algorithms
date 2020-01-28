@@ -13,9 +13,7 @@ public class MultiBracketValidation {
 
         for(int i = 0; i< input.length(); i++){
             char character = input.charAt(i);
-            System.out.println(character);
             if (character == '{' || character == '[' || character == '(' ) {
-                System.out.println("character = " + character);
                 openingBrackets.addFirst(character);
             } else if (character == '}' && openingBrackets.isEmpty()
                     || character == ']' && openingBrackets.isEmpty()
@@ -25,7 +23,7 @@ public class MultiBracketValidation {
                     || character == ']' && openingBrackets.peekFirst() == '['
                     || character == ')' &&  openingBrackets.peekFirst() == '(' ) {
 
-                System.out.println(openingBrackets.pollFirst());
+                openingBrackets.pollFirst();
 
             }
         }
@@ -46,7 +44,6 @@ public class MultiBracketValidation {
                 counter += -1;
             }
         }
-        System.out.println(counter);
         return counter == 0;
     }
 }
