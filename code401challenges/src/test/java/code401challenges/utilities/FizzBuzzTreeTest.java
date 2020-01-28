@@ -29,7 +29,7 @@ public class FizzBuzzTreeTest {
     @Test
     public void fizzBuzzTree() {
 
-        Tree<Object> resultTree = FizzBuzzTree.FizzBuzzTree(inputTree);
+        Tree<Object> resultTree = FizzBuzzTree.fizzBuzzTree(inputTree);
         assertEquals("Buzz", resultTree.root.value);
         assertEquals("FizzBuzz", resultTree.root.leftNode.value);
         assertEquals("Buzz",resultTree.root.rightNode.value);
@@ -43,7 +43,7 @@ public class FizzBuzzTreeTest {
             (expected = NoSuchElementException.class)
     public void fizzBuzzTree_nullTree(){
         Tree<Object> nullTree = new Tree<>();
-        System.out.println(FizzBuzzTree.FizzBuzzTree(nullTree));
+        System.out.println(FizzBuzzTree.fizzBuzzTree(nullTree));
     }
 
     @Test
@@ -56,6 +56,6 @@ public class FizzBuzzTreeTest {
         noIntTree.root.leftNode.leftNode = new Node<>("2");
         noIntTree.root.leftNode.rightNode = new Node<>("9");
         noIntTree.root.rightNode.leftNode = new Node<>("18");
-        FizzBuzzTree.FizzBuzzTree(noIntTree);
+        FizzBuzzTree.fizzBuzzTree(noIntTree);
     }
 }

@@ -5,22 +5,22 @@ import code401challenges.tree.Tree;
 
 import java.util.NoSuchElementException;
 
-public class FizzBuzzTree<E> {
+public class FizzBuzzTree {
 
-    public static Tree<Object> FizzBuzzTree(Tree<Object> inputTree) {
+    public static Tree<Object> fizzBuzzTree(Tree<Object> inputTree) {
       if(inputTree.root == null) {
             throw new NoSuchElementException("Its empty");
         }
-        FizzBuzzTree(inputTree.root);
+        fizzBuzzTree(inputTree.root);
         return inputTree;
 
     }
 
-    private static void FizzBuzzTree(Node<Object> root){
+    private static void fizzBuzzTree(Node<Object> root){
 
         if(root != null) {
-            FizzBuzzTree(root.leftNode);
-            FizzBuzzTree(root.rightNode);
+            fizzBuzzTree(root.leftNode);
+            fizzBuzzTree(root.rightNode);
             if ((Integer) root.value % 3 == 0 && (Integer) root.value % 5 == 0) {
                 root.value = "FizzBuzz";
             } else if((Integer) root.value % 5 == 0) {
