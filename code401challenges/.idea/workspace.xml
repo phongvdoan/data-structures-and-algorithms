@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" afterDir="false" />
+    </list>
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +61,7 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -125,10 +135,14 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -140,6 +154,7 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -260,12 +275,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579217684309" />
+=======
+  <component name="ProjectId" id="1WivkG9HsY4kiUjd8k95xk7w69B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579587704179" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.tree" />
+      <recent name="code401challenges.utilities" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -280,94 +326,124 @@
   </component>
   <component name="RunManager" selected="JUnit.LinkedListTest">
     <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+  <component name="RunManager" selected="Gradle.TreeTest">
+    <configuration name="BinarySearchTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="BinarySearchTreeTest.testExceptionHandler" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testExceptionHandler&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testMergeListsThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeListsThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="BinarySearchTreeTest.testPostOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testPostOrder&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeLists_emptyLinkedListFirstParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergeLists_emptyLinkedListSecondParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TreeTest.testPreorder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testPreorder&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListSecondParams" />
         <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListFirstParams" />
         <item itemvalue="JUnit.LinkedListTest.testMergeListsThree" />
+=======
+        <item itemvalue="Gradle.TreeTest" />
+        <item itemvalue="Gradle.TreeTest.testPreorder" />
+        <item itemvalue="Gradle.BinarySearchTreeTest.testExceptionHandler" />
+        <item itemvalue="Gradle.BinarySearchTreeTest" />
+        <item itemvalue="Gradle.BinarySearchTreeTest.testPostOrder" />
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
       </list>
     </recent_temporary>
   </component>
@@ -381,9 +457,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578452659649</updated>
+      <workItem from="1579645371847" duration="1304000" />
+      <workItem from="1579662203610" duration="3953000" />
+      <workItem from="1579748286896" duration="6842000" />
+      <workItem from="1579803146630" duration="852000" />
+      <workItem from="1579804639448" duration="1397000" />
+      <workItem from="1579820758164" duration="330000" />
+      <workItem from="1580144532394" duration="8780000" />
+      <workItem from="1580155823065" duration="815000" />
+      <workItem from="1580157326160" duration="178000" />
+      <workItem from="1580164847040" duration="766000" />
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 18s.xml">
       <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
@@ -416,6 +503,8 @@
       <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
+=======
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -425,6 +514,7 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="768" extended-state="0" />
     <editor active="true" />
@@ -458,10 +548,85 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  <component name="WindowStateProjectService">
+    <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579669234414">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579669234414" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1580151946516">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580165827102">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827102" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
+    <state width="1400" height="249" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
+    <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580165827101">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
+    <state width="1400" height="249" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
+    <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580165827100">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827100" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580155674702" />
+    <state width="1400" height="249" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259951" />
+    <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580165827101">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
+    <state width="1400" height="249" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
+    <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
+    <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916346" />
+    <state width="1400" height="249" key="GridCell.Tab.1.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259954" />
+    <state width="1400" height="249" key="GridCell.Tab.1.center" timestamp="1579756259953">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
+    <state width="1400" height="249" key="GridCell.Tab.1.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
+    <state width="1400" height="249" key="GridCell.Tab.1.left" timestamp="1579756259953">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
+    <state width="1400" height="249" key="GridCell.Tab.1.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
+    <state width="1400" height="249" key="GridCell.Tab.1.right" timestamp="1579756259954">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916345" />
+    <state width="1400" height="249" key="GridCell.Tab.1.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259954" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1579803253350">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579803253350" />
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1579803148129">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
+    <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580164891658">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
+    <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579750686549" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,5 +816,82 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|code401challenges</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.code.findbugs:jsr305:3.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
 </project>

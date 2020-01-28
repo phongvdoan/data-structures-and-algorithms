@@ -12,3 +12,13 @@
 [Day 7: Linked List KthFromEnd](otherReadmes/ll-kthFromEndREADME.md)
 
 [Day 8: Linked List Merge](otherReadmes/ll-mergeREADME.md)
+
+[Day 10: Stacks and Queues](otherReadmes/stackAndQueuesREADME.md)
+
+[Day 11: Queue with Stack](otherReadmes/psuedoQueueREADME.md)
+
+[Day 12: AnimalShelter](otherReadmes/fifo-animal-shelterREADME.md)
+
+[Day 13: MultiBracketValidation](otherReadmes/multiBracketValidationREADME.md)
+
+[Day 15: Tree](otherReadmes/treeREADME.md)
