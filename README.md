@@ -24,3 +24,5 @@
 [Day 13: MultiBracketValidation](code401challenges/otherReadmes/multiBracketValidationREADME.md)
 
 [Day 15: Tree](code401challenges/otherReadmes/treeREADME.md)
+
+[Day 16: FizzBuzzTree](code401challenges/otherReadmes/fizzbuzztreeREADME.md)

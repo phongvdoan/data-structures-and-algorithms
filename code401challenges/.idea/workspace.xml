@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-=======
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/FizzBuzzTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/FizzBuzzTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/utilities/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/utilities/FizzBuzzTreeTest.java" afterDir="false" />
     </list>
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,11 +54,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="code401challenges" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,82 +61,6 @@
       </state>
     </system>
   </component>
-<<<<<<< HEAD
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2055">
-              <caret line="144" column="23" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-=======
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -154,128 +78,6 @@
       </map>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/Library.java" />
-        <option value="$PROJECT_DIR$/src/test/java/code401challenges/LinkedListTest/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java" />
-        <option value="$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md" />
-        <option value="$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="768" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="otherReadmes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code401challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579217684309" />
-=======
   <component name="ProjectId" id="1WivkG9HsY4kiUjd8k95xk7w69B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -297,7 +99,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -311,30 +112,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
-    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-=======
-  <component name="RunManager" selected="Gradle.TreeTest">
-    <configuration name="BinarySearchTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
+  <component name="RunManager" selected="Gradle.FizzBuzzTreeTest.fizzBuzzTree">
+    <configuration name="FizzBuzzTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -349,12 +133,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTreeTest.testExceptionHandler" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testExceptionHandler&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -369,12 +153,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTreeTest.testPostOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree_noInts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.BinarySearchTreeTest.testPostOrder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree_noInts&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -389,12 +173,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree_nullTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree_nullTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -409,41 +193,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testPreorder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="code401challenges [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testPreorder&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="Gradle.code401challenges [test]" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListSecondParams" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeLists_emptyLinkedListFirstParams" />
-        <item itemvalue="JUnit.LinkedListTest.testMergeListsThree" />
-=======
-        <item itemvalue="Gradle.TreeTest" />
-        <item itemvalue="Gradle.TreeTest.testPreorder" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.testExceptionHandler" />
-        <item itemvalue="Gradle.BinarySearchTreeTest" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.testPostOrder" />
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree_nullTree" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree_noInts" />
+        <item itemvalue="Gradle.code401challenges [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -467,44 +242,12 @@
       <workItem from="1580155823065" duration="815000" />
       <workItem from="1580157326160" duration="178000" />
       <workItem from="1580164847040" duration="766000" />
+      <workItem from="1580192028615" duration="868000" />
+      <workItem from="1580236111038" duration="170000" />
+      <workItem from="1580248197670" duration="2951000" />
     </task>
     <servers />
   </component>
-<<<<<<< HEAD
-  <component name="TestHistory">
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListFirstParams - 2020.01.15 at 20h 51m 18s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListFirstParams" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testMergeLists_emptyLinkedListSecondParams - 2020.01.15 at 20h 51m 32s.xml">
-      <configuration name="LinkedListTest.testMergeLists_emptyLinkedListSecondParams" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.15 at 20h 51m 38s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.15 at 20h 52m 36s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.16 at 14h 21m 53s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.16 at 14h 33m 29s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.16 at 15h 15m 32s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 16m 34s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="code401challenges_[test] - 2020.01.16 at 15h 16m 55s.xml">
-      <configuration name="code401challenges [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2020.01.16 at 15h 33m 47s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-=======
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -514,44 +257,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-<<<<<<< HEAD
-  <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="768" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36524302" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32840237" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32840237" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988167" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32988167" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32988167" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496318" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3298969" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.3298969" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-=======
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579669234414">
@@ -563,34 +270,34 @@
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580165827102">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1580252196367">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827102" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
-    <state width="1400" height="249" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259953" />
-    <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580165827101">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897292" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580252196367" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1580252196366">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
-    <state width="1400" height="249" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
-    <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580165827100">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580252196366" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1580252196366">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827100" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580155674702" />
-    <state width="1400" height="249" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259951" />
-    <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580165827101">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580252196366" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1580252196367">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
-    <state width="1400" height="249" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579756259952" />
-    <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580252196367" />
     <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -626,197 +333,6 @@
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579750686549" />
   </component>
-<<<<<<< HEAD
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/challenges/README.md" />
-    <entry file="file://$PROJECT_DIR$/assets/array-shift.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/reverseREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/binarysearchREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/ll-insertionREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/linkedListREADME.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/ArrayShiftTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/shiftREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/ll-kthFromEndREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherReadmes/ll-mergeREADME.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="277" selection-start-line="10" selection-start-column="277" selection-end-line="10" selection-end-column="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="144" column="23" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401challenges/linkedlist/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/InvalidInputException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401challenges/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-=======
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -892,6 +408,5 @@
         </settings>
       </state>
     </states>
->>>>>>> f641e300173befa18c44143d508065a7c41975b1
   </component>
 </project>

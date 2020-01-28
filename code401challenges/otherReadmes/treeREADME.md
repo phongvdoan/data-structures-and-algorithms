@@ -1,6 +1,6 @@
 # Trees
 <!-- Short summary or background information -->
-[Code](code401challenges/src/main/java/code401challenges/tree/BinarySearchTree.java)
+[Code](/code401challenges/src/main/java/code401challenges/tree/BinarySearchTree.java)
 
 Create a BinaryTree that can add values and traverse preorder, inorder, and postorder.
 ## Challenge

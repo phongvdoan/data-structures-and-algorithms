@@ -24,7 +24,7 @@ public class MultiBracketValidationTest {
     public void testmultiBracketValidation_resultFalse() {
         String input = "[({}]";
         boolean result = multiBracketValidation(input);
-        assertEquals(false, result);
+        assertFalse(result);
         String inputTwo = "(](";
         boolean resultTwo = multiBracketValidation(inputTwo);
         assertFalse(resultTwo);
@@ -34,7 +34,7 @@ public class MultiBracketValidationTest {
     public void testmultiBracketValidation_resultFalseWithOneChar() {
         String input = "[";
         boolean result = multiBracketValidation(input);
-        assertEquals(false, result);
+        assertFalse(result);
         String inputTwo = ")";
         boolean resultTwo = multiBracketValidation(inputTwo);
         assertFalse(resultTwo);
@@ -50,7 +50,6 @@ public class MultiBracketValidationTest {
     @Test
             (expected = IllegalArgumentException.class)
     public void testmultiBracketValidation_withNull() {
-        String input = null;
-        multiBracketValidation(input);
+        multiBracketValidation(null);
     }
 }

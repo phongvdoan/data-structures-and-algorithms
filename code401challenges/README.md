@@ -22,3 +22,5 @@
 [Day 13: MultiBracketValidation](otherReadmes/multiBracketValidationREADME.md)
 
 [Day 15: Tree](otherReadmes/treeREADME.md)
+
+[Day 16: FizzBuzzTree](otherReadmes/fizzbuzztreeREADME.md)
