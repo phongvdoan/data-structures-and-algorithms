@@ -9,18 +9,18 @@ import static org.junit.Assert.*;
 
 public class TreeTest {
 
-    static Tree testTree;
+    static Tree<Integer> testTree;
 
     @Before
     public void setup(){
-        testTree = new Tree();
-        testTree.root = new Node(5);
-        testTree.root.leftNode = new Node(1);
-        testTree.root.rightNode = new Node(2);
-        testTree.root.leftNode.leftNode = new Node (3);
-        testTree.root.leftNode.rightNode = new Node (4);
-        testTree.root.rightNode.leftNode = new Node(5);
-        testTree.root.rightNode.rightNode = new Node(6);
+        testTree = new Tree<>();
+        testTree.root = new Node<>(5);
+        testTree.root.leftNode = new Node<>(1);
+        testTree.root.rightNode = new Node<>(2);
+        testTree.root.leftNode.leftNode = new Node<>(3);
+        testTree.root.leftNode.rightNode = new Node<>(4);
+        testTree.root.rightNode.leftNode = new Node<>(5);
+        testTree.root.rightNode.rightNode = new Node<>(6);
     }
 
 

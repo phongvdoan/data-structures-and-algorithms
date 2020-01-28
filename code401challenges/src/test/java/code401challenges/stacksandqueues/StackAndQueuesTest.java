@@ -11,7 +11,7 @@ public class StackAndQueuesTest {
 
     @Before
     public void setUpStack() {
-        testStack = new Stack();
+        testStack = new Stack<>();
         testStack.push(3);
         testStack.push(4);
         testStack.push(5);
@@ -65,7 +65,7 @@ public class StackAndQueuesTest {
 
     @Before
     public void setUpQueue(){
-        testQueue = new Queue();
+        testQueue = new Queue<>();
         testQueue.enqueue(5);
         testQueue.enqueue(4);
         testQueue.enqueue(3);

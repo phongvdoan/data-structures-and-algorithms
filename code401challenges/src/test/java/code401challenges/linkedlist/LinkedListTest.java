@@ -1,7 +1,6 @@
 
 package code401challenges.linkedlist;
 
-import code401challenges.InvalidInputException;
 import code401challenges.linkedList.LinkedList;
 import org.apache.commons.math3.exception.OutOfRangeException;
 import org.junit.Before;
@@ -15,13 +14,13 @@ public class LinkedListTest {
     @Test
     public void testLinkedList_instantiationWithEmptyList() {
         LinkedList testList = new LinkedList();
-        assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
+        assertNull("The empty LinkedList only has the head set at 'null'", testList.head);
     }
 
     @Test
     public void testLinkedList_insertIntoList() {
         LinkedList testList = new LinkedList();
-        assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
+        assertNull("The empty LinkedList only has the head set at 'null'", testList.head);
         testList.insert(4);
         assertEquals("The list now has value of 4 as the first node", 4, testList.head.value);
         testList.insert(5);
@@ -30,7 +29,7 @@ public class LinkedListTest {
     }
 
     @Test
-    public void testLinkedList_includesMethodReturnTrue() throws InvalidInputException {
+    public void testLinkedList_includesMethodReturnTrue(){
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -41,7 +40,7 @@ public class LinkedListTest {
         assertTrue("Value was not included in the LinkedList", testList.includes(3));
     }
     @Test
-    public void testLinkedList_includesMethodReturnFalse() throws InvalidInputException {
+    public void testLinkedList_includesMethodReturnFalse() {
         LinkedList testList = new LinkedList();
         testList.insert(10);
         testList.insert(3);
@@ -67,7 +66,7 @@ public class LinkedListTest {
     @Test
     public void testLinkedList_insertAndAppendsIntoList() {
         LinkedList testList = new LinkedList();
-        assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
+        assertNull("The empty LinkedList only has the head set at 'null'", testList.head);
         testList.insert(4);
         assertEquals("The list now has value of 4 as the first node", 4, testList.head.value);
         testList.insert(5);
@@ -80,7 +79,7 @@ public class LinkedListTest {
     @Test
     public void testLinkedList_insertAndInsertBeforeIntoList() {
         LinkedList testList = new LinkedList();
-        assertEquals("The empty LinkedList only has the head set at 'null'", null , testList.head);
+        assertNull("The empty LinkedList only has the head set at 'null'", testList.head);
         testList.insert(4);
         assertEquals("The list now has value of 4 as the first node", 4, testList.head.value);
         testList.insert(5);

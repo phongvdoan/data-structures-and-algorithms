@@ -5,7 +5,10 @@ import code401challenges.tree.Tree;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import java.util.NoSuchElementException;
+
+import static org.junit.Assert.assertEquals;
+
 
 public class FizzBuzzTreeTest {
 
@@ -25,7 +28,8 @@ public class FizzBuzzTreeTest {
 
     @Test
     public void fizzBuzzTree() {
-        Tree resultTree = FizzBuzzTree.FizzBuzzTree(inputTree);
+
+        Tree<Object> resultTree = FizzBuzzTree.FizzBuzzTree(inputTree);
         assertEquals("Buzz", resultTree.root.value);
         assertEquals("FizzBuzz", resultTree.root.leftNode.value);
         assertEquals("Buzz",resultTree.root.rightNode.value);
@@ -33,5 +37,25 @@ public class FizzBuzzTreeTest {
         assertEquals("Fizz",resultTree.root.leftNode.rightNode.value);
         assertEquals("Fizz",resultTree.root.rightNode.leftNode.value);
         assertEquals("97",resultTree.root.rightNode.rightNode.value );
+    }
+
+    @Test
+            (expected = NoSuchElementException.class)
+    public void fizzBuzzTree_nullTree(){
+        Tree<Object> nullTree = new Tree<>();
+        System.out.println(FizzBuzzTree.FizzBuzzTree(nullTree));
+    }
+
+    @Test
+            (expected = ClassCastException.class)
+    public void fizzBuzzTree_noInts(){
+        Tree<Object> noIntTree = new Tree<>();
+        noIntTree.root = new Node<>("hi");
+        noIntTree.root.leftNode = new Node<>("1");
+        noIntTree.root.rightNode = new Node<>("yo");
+        noIntTree.root.leftNode.leftNode = new Node<>("2");
+        noIntTree.root.leftNode.rightNode = new Node<>("9");
+        noIntTree.root.rightNode.leftNode = new Node<>("18");
+        FizzBuzzTree.FizzBuzzTree(noIntTree);
     }
 }

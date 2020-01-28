@@ -3,9 +3,14 @@ package code401challenges.utilities;
 import code401challenges.tree.Node;
 import code401challenges.tree.Tree;
 
+import java.util.NoSuchElementException;
+
 public class FizzBuzzTree<E> {
 
     public static Tree<Object> FizzBuzzTree(Tree<Object> inputTree) {
+      if(inputTree.root == null) {
+            throw new NoSuchElementException("Its empty");
+        }
         FizzBuzzTree(inputTree.root);
         return inputTree;
 
