@@ -11,9 +11,9 @@ public class BinarySearchTree extends Tree {
             return new Node(value);
 
         }
-        if (value < node.value){
+        if (value < (Integer)root.value){
             node.leftNode = add(node.leftNode, value);
-        } else if ( value > node.value){
+        } else if ( value > (Integer) node.value){
             node.rightNode = add(node.rightNode, value);
         }
         return node;
@@ -27,12 +27,12 @@ public class BinarySearchTree extends Tree {
         if(node == null){
             return false;
         }
-        if(node.value == value){
+        if((Integer)node.value == value){
             return true;
         }
-        if(value > node.value){
+        if(value > (Integer)node.value){
             contains(node.rightNode, value);
-        } else if(value < node.value){
+        } else if(value < (Integer)node.value){
             contains(node.leftNode, value);
         }
         return false;

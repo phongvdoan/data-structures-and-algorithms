@@ -6,23 +6,24 @@ import java.util.NoSuchElementException;
 
 // https://howtodoinjava.com/java/collections/arraylist/convert-arraylist-to-array/
 //used to convert ArrayList to arrays and print them out
-public class Tree {
+public class Tree<E> {
 
-    Node root;
+    public Node<E> root;
 
     public Tree() {
         this.root = null;
     }
 
     public Integer[] preOrder(){
-        ArrayList<Integer> preOrderArr = new ArrayList<>();
+        ArrayList<E> preOrderArr = new ArrayList<>();
         if(root == null){
             throw new NoSuchElementException("There are no Nodes in the tree.");
         }
-        return preOrder(root, preOrderArr);
+
+        return preOrder(root, preOrderArr).toArray(new Integer[preOrderArr.size()]);
     }
 
-    private Integer[] preOrder(Node root, ArrayList<Integer> preOrderArr){
+    private ArrayList<E> preOrder(Node<E> root, ArrayList<E> preOrderArr){
 
         if (root != null) {
            preOrderArr.add(root.value);
@@ -30,11 +31,11 @@ public class Tree {
             preOrder(root.rightNode,preOrderArr);
         }
 
-        return preOrderArr.toArray(new Integer[preOrderArr.size()]);
+        return preOrderArr;
     }
 
     public Integer[] inOrder(){
-        ArrayList <Integer> inOrderArr = new ArrayList<>();
+        ArrayList <E> inOrderArr = new ArrayList<>();
 
         if(root == null){
             throw new NoSuchElementException("There are no Nodes in the tree.");
@@ -42,7 +43,7 @@ public class Tree {
         return inOrder(root, inOrderArr);
     }
 
-    private Integer[] inOrder(Node root, ArrayList <Integer> inOrderArr) {
+    private Integer[] inOrder(Node<E> root, ArrayList <E> inOrderArr) {
         if(root != null){
             inOrder(root.leftNode, inOrderArr);
             inOrderArr.add(root.value);
@@ -52,7 +53,7 @@ public class Tree {
     }
 
     public Integer[] postOrder(){
-        ArrayList <Integer> postOrderArr = new ArrayList<>();
+        ArrayList <E> postOrderArr = new ArrayList<>();
 
         if(root == null){
             throw new NoSuchElementException("There are no Nodes in the tree.");
@@ -62,7 +63,7 @@ public class Tree {
     }
 
 
-    private Integer[] postOrder(Node root, ArrayList <Integer> postOrderArr) {
+    private Integer[] postOrder(Node<E> root, ArrayList <E> postOrderArr) {
         if(root != null){
             postOrder(root.leftNode, postOrderArr);
             postOrder(root.rightNode,postOrderArr);
@@ -71,5 +72,12 @@ public class Tree {
         return postOrderArr.toArray(new Integer[postOrderArr.size()]);
     }
 
+    public Node getRoot() {
+        return root;
+    }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
 
 }
