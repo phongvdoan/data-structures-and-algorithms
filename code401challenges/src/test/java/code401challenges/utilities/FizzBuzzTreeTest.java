@@ -7,15 +7,15 @@ import org.junit.Test;
 
 import java.util.NoSuchElementException;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 
 public class FizzBuzzTreeTest {
 
-    Tree<Object> inputTree;
+    Tree<Integer> inputTree;
 
     @Before
-    public void setup() {
+    public void setupTree() {
         inputTree = new Tree<>();
         inputTree.root = new Node<>(5);
         inputTree.root.leftNode = new Node<>(15);
@@ -29,7 +29,7 @@ public class FizzBuzzTreeTest {
     @Test
     public void fizzBuzzTree() {
 
-        Tree<Object> resultTree = FizzBuzzTree.fizzBuzzTree(inputTree);
+        Tree<String> resultTree = FizzBuzzTree.fizzBuzzTree(inputTree);
         assertEquals("Buzz", resultTree.root.value);
         assertEquals("FizzBuzz", resultTree.root.leftNode.value);
         assertEquals("Buzz",resultTree.root.rightNode.value);
@@ -37,25 +37,35 @@ public class FizzBuzzTreeTest {
         assertEquals("Fizz",resultTree.root.leftNode.rightNode.value);
         assertEquals("Fizz",resultTree.root.rightNode.leftNode.value);
         assertEquals("97",resultTree.root.rightNode.rightNode.value );
+
+        // Original Tree is kept
+
+        assertTrue(inputTree.root.value == 5);
+        assertTrue(inputTree.root.leftNode.value == 15);
+        assertTrue(inputTree.root.rightNode.value == 20);
+        assertTrue(inputTree.root.leftNode.leftNode.value == 2);
+        assertTrue(inputTree.root.leftNode.rightNode.value == 9);
+        assertTrue(inputTree.root.rightNode.leftNode.value == 18);
+        assertTrue(inputTree.root.rightNode.rightNode.value ==97);
     }
 
     @Test
-            (expected = NoSuchElementException.class)
+//            (expected = NoSuchElementException.class)
     public void fizzBuzzTree_nullTree(){
-        Tree<Object> nullTree = new Tree<>();
-        System.out.println(FizzBuzzTree.fizzBuzzTree(nullTree));
+        Tree<Integer> nullTree = new Tree<>();
+        assertNull(FizzBuzzTree.fizzBuzzTree(nullTree).root.value);
     }
 
     @Test
             (expected = ClassCastException.class)
     public void fizzBuzzTree_noInts(){
-        Tree<Object> noIntTree = new Tree<>();
-        noIntTree.root = new Node<>("hi");
-        noIntTree.root.leftNode = new Node<>("1");
-        noIntTree.root.rightNode = new Node<>("yo");
-        noIntTree.root.leftNode.leftNode = new Node<>("2");
-        noIntTree.root.leftNode.rightNode = new Node<>("9");
-        noIntTree.root.rightNode.leftNode = new Node<>("18");
+        Tree<Integer> noIntTree = new Tree<>();
+        noIntTree.root = new Node("hi");
+        noIntTree.root.leftNode = new Node(1);
+        noIntTree.root.rightNode = new Node("yo");
+        noIntTree.root.leftNode.leftNode = new Node(2);
+        noIntTree.root.leftNode.rightNode = new Node(9);
+        noIntTree.root.rightNode.leftNode = new Node(18);
         FizzBuzzTree.fizzBuzzTree(noIntTree);
     }
 }

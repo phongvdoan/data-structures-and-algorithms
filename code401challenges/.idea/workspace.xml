@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/FizzBuzzTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/FizzBuzzTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/utilities/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/utilities/FizzBuzzTreeTest.java" afterDir="false" />
     </list>
@@ -115,7 +112,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.code401challenges [test]">
+  <component name="RunManager" selected="Gradle.FizzBuzzTreeTest.fizzBuzzTree">
     <configuration name="FizzBuzzTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,12 +133,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,23 +153,44 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="code401challenges [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree_noInts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree_noInts&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTree_nullTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree_nullTree&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="code401challenges [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -194,32 +212,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree" />
         <item itemvalue="Gradle.FizzBuzzTreeTest" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree_nullTree" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree_noInts" />
         <item itemvalue="Gradle.code401challenges [clean]" />
-        <item itemvalue="Gradle.code401challenges [build]" />
-        <item itemvalue="Gradle.code401challenges [test]" />
-        <item itemvalue="Gradle.TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +243,8 @@
       <workItem from="1580157326160" duration="178000" />
       <workItem from="1580164847040" duration="766000" />
       <workItem from="1580192028615" duration="868000" />
+      <workItem from="1580236111038" duration="170000" />
+      <workItem from="1580248197670" duration="2951000" />
     </task>
     <servers />
   </component>
@@ -269,34 +270,34 @@
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1580192897292">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1580252196367">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827102" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897292" />
-    <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1580192897291">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580252196367" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1580252196366">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1580192897291">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580252196366" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1580252196366">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827100" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580155674702" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579646705821" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1580192897291">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580252196366" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1580252196367">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580155674703" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579646705822" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580252196367" />
     <state width="1400" height="249" key="GridCell.Tab.1.bottom" timestamp="1579756259954">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
