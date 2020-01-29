@@ -87,11 +87,11 @@ public class Tree<E> {
         while(!treeQueue.isEmpty()){
             Node<E> traversalNode = treeQueue.dequeue();
             treeList.add(traversalNode.value);
-            if(traversalNode.rightNode != null){
-                treeQueue.enqueue(traversalNode.rightNode);
-            }
             if(traversalNode.leftNode != null){
                 treeQueue.enqueue(traversalNode.leftNode);
+            }
+            if(traversalNode.rightNode != null){
+                treeQueue.enqueue(traversalNode.rightNode);
             }
 
         }
