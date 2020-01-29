@@ -3,6 +3,8 @@ package code401challenges.tree;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
@@ -41,5 +43,11 @@ public class TreeTest {
     public void testPostOrder() {
         Integer[] expected = new Integer[]{3, 4, 1, 5, 6, 2, 5};
         assertEquals(Arrays.toString(expected),Arrays.toString(testTree.postOrder()));
+    }
+
+    @Test
+    public void testBreadthFirstApproach(){
+        Integer[] expected = new Integer[]{5, 2, 1, 6, 5, 4, 3};
+        assertArrayEquals(expected, testTree.breathFirstTraversal().toArray() );
     }
 }

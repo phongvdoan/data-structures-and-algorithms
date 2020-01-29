@@ -1,5 +1,7 @@
 package code401challenges.tree;
 
+import code401challenges.stacksandqueues.Queue;
+
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
@@ -70,6 +72,29 @@ public class Tree<E> {
             postOrderArr.add(root.value);
         }
         return postOrderArr.toArray(new Integer[postOrderArr.size()]);
+    }
+
+    public ArrayList<Object> breathFirstTraversal(){
+        ArrayList<Object> treeList = new ArrayList<>();
+        breathFirstTraversal(this.root, treeList);
+        return treeList;
+
+    }
+
+    private void breathFirstTraversal(Node<E> root, ArrayList<Object> treeList){
+        Queue<Node> treeQueue = new Queue<>();
+        treeQueue.enqueue(root);
+        while(!treeQueue.isEmpty()){
+            Node<E> traversalNode = treeQueue.dequeue();
+            treeList.add(traversalNode.value);
+            if(traversalNode.rightNode != null){
+                treeQueue.enqueue(traversalNode.rightNode);
+            }
+            if(traversalNode.leftNode != null){
+                treeQueue.enqueue(traversalNode.leftNode);
+            }
+
+        }
     }
 
     public Node getRoot() {
