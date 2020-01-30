@@ -1,5 +1,6 @@
 package code401challenges.tree;
 
+import org.apache.commons.math3.exception.NullArgumentException;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -67,5 +68,41 @@ public class TreeTest {
         assertArrayEquals(expected, testTree.breathFirstTraversal().toArray() );
     }
 
+    @Test
+    public void testFindMaximumValue(){
+        Tree<Integer> testTree = new Tree<>();
+        testTree.root = new Node<>(2);
+        testTree.root.leftNode = new Node<>(7);
+        testTree.root.rightNode = new Node<>(5);
+        testTree.root.leftNode.leftNode = new Node<>(2);
+        testTree.root.leftNode.rightNode = new Node<>(6);
+        testTree.root.rightNode.rightNode = new Node<>(9);
+        testTree.root.leftNode.rightNode.leftNode = new Node<>(5);
+        testTree.root.leftNode.rightNode.rightNode = new Node<>(11);
+        testTree.root.rightNode.rightNode.leftNode = new Node<>(4);
+        assertEquals(11, testTree.find_maximum_value());
+    }
+
+    @Test
+    public void testFindMaximumValue_sameValues(){
+        Tree<Integer> testTree = new Tree<>();
+        testTree.root = new Node<>(1);
+        testTree.root.leftNode = new Node<>(1);
+        testTree.root.rightNode = new Node<>(1);
+        testTree.root.leftNode.leftNode = new Node<>(1);
+        testTree.root.leftNode.rightNode = new Node<>(1);
+        testTree.root.rightNode.rightNode = new Node<>(1);
+        testTree.root.leftNode.rightNode.leftNode = new Node<>(1);
+        testTree.root.leftNode.rightNode.rightNode = new Node<>(1);
+        testTree.root.rightNode.rightNode.leftNode = new Node<>(1);
+        assertEquals(1, testTree.find_maximum_value());
+    }
+
+    @Test
+            (expected = NullArgumentException.class)
+    public void testFindMaximumValue_nullValues(){
+        Tree<Integer> testTree = new Tree<>();
+        assertEquals(11, testTree.find_maximum_value());
+    }
 
 }
