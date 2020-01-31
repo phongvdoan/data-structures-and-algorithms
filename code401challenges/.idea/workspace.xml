@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherReadmes/findMaxBinaryTreeREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/findMaxBinaryTreeREADME.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/tree/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
@@ -112,67 +113,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TreeTest.testBreadthFirstApproach_anotherOne">
-    <configuration name="FizzBuzzTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzzTreeTest.fizzBuzzTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzzTreeTest.fizzBuzzTree_nullTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.utilities.FizzBuzzTreeTest.fizzBuzzTree_nullTree&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TreeTest.testFindMaximumValue_sameValues">
     <configuration name="TreeTest.testBreadthFirstApproach" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,13 +154,73 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TreeTest.testFindMaximumValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeTest.testFindMaximumValue_nullValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue_nullValues&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeTest.testFindMaximumValue_sameValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue_sameValues&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeTest.testFindMaximumValue_sameValues" />
+        <item itemvalue="Gradle.TreeTest.testFindMaximumValue_nullValues" />
+        <item itemvalue="Gradle.TreeTest.testFindMaximumValue" />
         <item itemvalue="Gradle.TreeTest.testBreadthFirstApproach_anotherOne" />
         <item itemvalue="Gradle.TreeTest.testBreadthFirstApproach" />
-        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree" />
-        <item itemvalue="Gradle.FizzBuzzTreeTest" />
-        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTree_nullTree" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +249,10 @@
       <workItem from="1580248197670" duration="2951000" />
       <workItem from="1580316823499" duration="4687000" />
       <workItem from="1580328217261" duration="670000" />
+      <workItem from="1580406996138" duration="885000" />
+      <workItem from="1580423198581" duration="1885000" />
+      <workItem from="1580435454050" duration="286000" />
+      <workItem from="1580447127071" duration="54000" />
     </task>
     <servers />
   </component>
@@ -277,34 +282,42 @@
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1580331537689">
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1580358902589">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580358902589" />
+    <state x="461" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580408053974">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827102" />
+    <state x="461" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.808@0.23.1440.808" timestamp="1580408053974" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1580425478910">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897292" />
-    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580331537689" />
-    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1580331537688">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1580425478910">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580331537688" />
-    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1580331537688">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1580425478909">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827100" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580331537688" />
-    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1580331537689">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580425478909" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1580425478910">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580165827101" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
-    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580331537689" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1580331537690">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -343,6 +356,10 @@
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579750686549" />
+    <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="312" y="152" width="816" height="550" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1580407910393" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580325750367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

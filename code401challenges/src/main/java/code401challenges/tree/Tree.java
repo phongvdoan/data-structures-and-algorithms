@@ -1,6 +1,7 @@
 package code401challenges.tree;
 
 import code401challenges.stacksandqueues.Queue;
+import org.apache.commons.math3.exception.NullArgumentException;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
@@ -95,6 +96,35 @@ public class Tree<E> {
             }
 
         }
+    }
+
+    public int find_maximum_value(){
+//        if(this.getClass() != Tree<Integer>.class)
+        return find_maximum_value(root);
+
+
+    }
+
+    private int find_maximum_value(Node<E> root){
+        int highestValu = Integer.MIN_VALUE;
+        if(root == null){
+            throw new NullArgumentException();
+        }
+        Queue<Node> treeQueue = new Queue<>();
+        treeQueue.enqueue(root);
+        while(!treeQueue.isEmpty()){
+            Node traversalNode = treeQueue.dequeue();
+            if((Integer) traversalNode.value > highestValu){
+                highestValu = (Integer) traversalNode.value;
+            }
+            if(traversalNode.leftNode != null){
+                treeQueue.enqueue(traversalNode.leftNode);
+            }
+            if(traversalNode.rightNode != null){
+                treeQueue.enqueue(traversalNode.rightNode);
+            }
+        }
+        return highestValu;
     }
 
     public Node getRoot() {

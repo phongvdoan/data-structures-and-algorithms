@@ -26,3 +26,5 @@
 [Day 16: FizzBuzzTree](otherReadmes/fizzbuzztreeREADME.md)
 
 [Day 17: Breadth First Traversal](otherReadmes/breadth-firstREADME.md)
+
+[Day 18: Find Maximum Binary Tree](otherReadmes/findMaxBinaryTreeREADME.md)
