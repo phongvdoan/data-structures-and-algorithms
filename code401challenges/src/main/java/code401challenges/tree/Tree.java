@@ -99,13 +99,14 @@ public class Tree<E> {
     }
 
     public int find_maximum_value(){
-        int highestValu = Integer.MIN_VALUE;
-        return find_maximum_value( root, highestValu);
+//        if(this.getClass() != Tree<Integer>.class)
+        return find_maximum_value(root);
 
 
     }
 
-    private int find_maximum_value(Node<E> root, int highestValu){
+    private int find_maximum_value(Node<E> root){
+        int highestValu = Integer.MIN_VALUE;
         if(root == null){
             throw new NullArgumentException();
         }

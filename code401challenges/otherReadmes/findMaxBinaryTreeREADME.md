@@ -13,4 +13,4 @@ During the iteration the Node value is checked for if it greater than the curren
 The Big O is O(n) for time and O(n) for space
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../assets/breadth-first.jpg)
+![](../assets/find-max.jpg)
