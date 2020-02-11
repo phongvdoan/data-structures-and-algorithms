@@ -30,3 +30,5 @@
 [Day 17: Breadth First Traversal](code401challenges/otherReadmes/breadth-firstREADME.md)
 
 [Day 18: Find Maximum Binary Tree](code401challenges/otherReadmes/findMaxBinaryTreeREADME.md)
+
+[Day 26: Insertion Sort](code401challenges/otherReadmes/insertion-sort.md)

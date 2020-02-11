@@ -28,3 +28,5 @@
 [Day 17: Breadth First Traversal](otherReadmes/breadth-firstREADME.md)
 
 [Day 18: Find Maximum Binary Tree](otherReadmes/findMaxBinaryTreeREADME.md)
+
+[Day 26: Insertion Sort](otherReadmes/insertion-sort.md)
