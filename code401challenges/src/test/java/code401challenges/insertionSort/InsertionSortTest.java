@@ -1,5 +1,6 @@
 package code401challenges.insertionSort;
 
+import org.apache.commons.math3.exception.NullArgumentException;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,4 +25,26 @@ public class InsertionSortTest {
         assertArrayEquals(resultArr, testArr);
     }
 
+    @Test
+    public void testInsertionSort_negativeValues() {
+        testArr = new int[]{20,18,12,8,5,-2};
+        int[] resultArr = new int[]{-2, 5, 8, 12, 18, 20};
+        insertionSort(testArr);
+        assertArrayEquals(resultArr, testArr);
+    }
+
+    @Test
+    public void testInsertionSort_duplicateValues() {
+        testArr = new int[]{5,12,7,5,5,7};
+        int[] resultArr = new int[]{5, 5, 5, 7, 7, 12};
+        insertionSort(testArr);
+        assertArrayEquals(resultArr, testArr);
+    }
+
+    @Test
+            (expected = NullArgumentException.class)
+    public void testInsertionSort_noValues() {
+        testArr = new int[]{};
+        insertionSort(testArr);
+    }
 }

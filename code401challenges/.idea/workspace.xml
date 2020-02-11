@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/insertionSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/insertionSort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/insertionSort/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/insertionSort/InsertionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +118,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionSortTest.testInsertionSort">
-    <configuration name="InsertionSortTest.testInsertionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.InsertionSortTest.testInsertionSort_noValues">
+    <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -136,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testBreadthFirstApproach_anotherOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionSortTest.testInsertionSort_duplicateValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testBreadthFirstApproach_anotherOne&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_duplicateValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,12 +159,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testFindMaximumValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionSortTest.testInsertionSort_negaticeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_negaticeValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,12 +179,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testFindMaximumValue_nullValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionSortTest.testInsertionSort_negativeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue_nullValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_negativeValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -196,12 +199,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testFindMaximumValue_sameValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionSortTest.testInsertionSort_noValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testFindMaximumValue_sameValues&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_noValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -218,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort" />
-        <item itemvalue="Gradle.TreeTest.testFindMaximumValue_sameValues" />
-        <item itemvalue="Gradle.TreeTest.testFindMaximumValue_nullValues" />
-        <item itemvalue="Gradle.TreeTest.testFindMaximumValue" />
-        <item itemvalue="Gradle.TreeTest.testBreadthFirstApproach_anotherOne" />
+        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_noValues" />
+        <item itemvalue="Gradle.InsertionSortTest" />
+        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_duplicateValues" />
+        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_negativeValues" />
+        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_negaticeValues" />
       </list>
     </recent_temporary>
   </component>
@@ -255,8 +258,23 @@
       <workItem from="1580423198581" duration="1885000" />
       <workItem from="1580435454050" duration="286000" />
       <workItem from="1580447127071" duration="54000" />
-      <workItem from="1581389479450" duration="4686000" />
+      <workItem from="1581389479450" duration="6249000" />
     </task>
+    <task id="LOCAL-00001" summary="added blog and code">
+      <created>1581402357286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581402357286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added blog and code">
+      <created>1581402370231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581402370231</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -271,15 +289,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added blog and code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added blog and code" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579669234414">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579669234414" />
-    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580331537758">
+    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581441821255">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.808@0.23.1440.808" timestamp="1580331537758" />
+    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.808@0.23.1440.808" timestamp="1581441821255" />
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1580151946516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -293,38 +315,38 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="461" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.808@0.23.1440.808" timestamp="1580408053974" />
-    <state x="172" y="29" key="CommitChangelistDialog2" timestamp="1581402356361">
+    <state x="172" y="29" key="CommitChangelistDialog2" timestamp="1581402369799">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402356361" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581402329356">
+    <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581442321402">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329356" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581402329354">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581442321402">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329354" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581402329353">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581442321401">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329353" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580425478909" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581402329355">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581442321401" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581442321402">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329355" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1580331537690">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -353,6 +375,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579803253350" />
+    <state x="320" y="155" key="Vcs.Push.Dialog.v2" timestamp="1581402372158">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="320" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402372158" />
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1579803148129">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
