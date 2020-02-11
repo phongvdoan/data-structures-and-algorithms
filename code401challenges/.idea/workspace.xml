@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherReadmes/findMaxBinaryTreeREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/findMaxBinaryTreeREADME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/tree/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +77,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1WivkG9HsY4kiUjd8k95xk7w69B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -103,6 +104,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.insertionSort" />
       <recent name="code401challenges.tree" />
       <recent name="code401challenges.utilities" />
     </key>
@@ -113,13 +115,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TreeTest.testFindMaximumValue_sameValues">
-    <configuration name="TreeTest.testBreadthFirstApproach" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.InsertionSortTest.testInsertionSort">
+    <configuration name="InsertionSortTest.testInsertionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.tree.TreeTest.testBreadthFirstApproach&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -216,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort" />
         <item itemvalue="Gradle.TreeTest.testFindMaximumValue_sameValues" />
         <item itemvalue="Gradle.TreeTest.testFindMaximumValue_nullValues" />
         <item itemvalue="Gradle.TreeTest.testFindMaximumValue" />
         <item itemvalue="Gradle.TreeTest.testBreadthFirstApproach_anotherOne" />
-        <item itemvalue="Gradle.TreeTest.testBreadthFirstApproach" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +255,7 @@
       <workItem from="1580423198581" duration="1885000" />
       <workItem from="1580435454050" duration="286000" />
       <workItem from="1580447127071" duration="54000" />
+      <workItem from="1581389479450" duration="4686000" />
     </task>
     <servers />
   </component>
@@ -290,33 +293,33 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="461" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.808@0.23.1440.808" timestamp="1580408053974" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1580425478910">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581402329356">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897292" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329356" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1580425478910">
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581402329354">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329354" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1580425478909">
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581402329353">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329353" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1580425478909" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1580425478910">
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581402329355">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1580192897291" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329355" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1580425478910" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1580331537690">
       <screen x="0" y="23" width="1440" height="808" />
@@ -350,12 +353,12 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580164891658">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581401914149">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579750686549" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581401914149" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
