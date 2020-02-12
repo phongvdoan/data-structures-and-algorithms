@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/insertionSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/insertionSort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/insertionSort/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/insertionSort/InsertionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -259,6 +256,7 @@
       <workItem from="1580435454050" duration="286000" />
       <workItem from="1580447127071" duration="54000" />
       <workItem from="1581389479450" duration="6249000" />
+      <workItem from="1581475967224" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
