@@ -83,8 +83,8 @@ On the last return, the first call stack with the previous return will sort and 
 - O(n)
     - It will compare each element within the array and this happens n times.
     
-- O(1)
-    - No additional space is created as it will be sorted in place.
+- O(n)
+    - Additional space is created as it will be sorted into a new memory location.
     
 
 
