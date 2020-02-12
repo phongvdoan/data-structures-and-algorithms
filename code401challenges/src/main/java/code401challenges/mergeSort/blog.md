@@ -80,7 +80,7 @@ On the last return, the first call stack with the previous return will sort and 
 
 ###Time
 
-- O(n^2)
+- O(n)
     - It will compare each element within the array and this happens n times.
     
 - O(1)

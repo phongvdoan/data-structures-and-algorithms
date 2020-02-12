@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/mergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/mergeSort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/mergeSort/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/mergeSort/blog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -104,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.mergeSort" />
       <recent name="code401challenges.insertionSort" />
       <recent name="code401challenges.tree" />
       <recent name="code401challenges.utilities" />
@@ -115,7 +118,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionSortTest.testInsertionSort_noValues">
+  <component name="RunManager" selected="Gradle.MergeSortTest.testMergeSort">
     <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,46 +159,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InsertionSortTest.testInsertionSort_negaticeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_negaticeValues&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="InsertionSortTest.testInsertionSort_negativeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertionSort.InsertionSortTest.testInsertionSort_negativeValues&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="InsertionSortTest.testInsertionSort_noValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,13 +179,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MergeSortTest.testMerge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMerge&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeSortTest.testMergeSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMergeSort&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeSortTest.testMergeSort" />
+        <item itemvalue="Gradle.MergeSortTest.testMerge" />
         <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_noValues" />
         <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_duplicateValues" />
-        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_negativeValues" />
-        <item itemvalue="Gradle.InsertionSortTest.testInsertionSort_negaticeValues" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,7 @@
       <workItem from="1580435454050" duration="286000" />
       <workItem from="1580447127071" duration="54000" />
       <workItem from="1581389479450" duration="6249000" />
-      <workItem from="1581475967224" duration="2561000" />
+      <workItem from="1581475967224" duration="4626000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -317,33 +320,33 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581442321402">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581486917868">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329356" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581486917868" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581442321402">
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581486917867">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329354" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581486917867" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581442321401">
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581486917866">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329353" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581486917866" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581442321401" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581442321402">
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581486917867">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402329355" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581486917867" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581442321402" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1580331537690">
       <screen x="0" y="23" width="1440" height="808" />
@@ -381,12 +384,12 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581401914149">
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581486165272">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581401914149" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581486165272" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
