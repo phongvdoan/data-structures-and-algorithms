@@ -24,4 +24,18 @@ public class MergeSortTest {
         int[] resultArr = mergeSort(testArrayOne);
         assertArrayEquals(new int[]{1, 2, 12, 32, 33, 34, 43, 45, 78, 243}, resultArr);
     }
+
+    @Test
+    public void testMergeSort_lengthOfOne() {
+        int[] testArrayOne = new int[]{45};
+        int[] resultArr = mergeSort(testArrayOne);
+        assertArrayEquals(new int[]{45}, resultArr);
+    }
+
+    @Test
+    public void testMergeSort_emptyArr() {
+        int[] testArrayOne = new int[]{};
+        int[] resultArr = mergeSort(testArrayOne);
+        assertArrayEquals(new int[]{}, resultArr);
+    }
 }
