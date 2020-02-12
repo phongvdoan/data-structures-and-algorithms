@@ -30,3 +30,5 @@
 [Day 18: Find Maximum Binary Tree](otherReadmes/findMaxBinaryTreeREADME.md)
 
 [Day 26: Insertion Sort](otherReadmes/insertion-sort.md)
+
+[Day 27: Merge Sort](otherReadmes/merge-sort.md)
