@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherReadmes/insertion-sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/insertion-sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherReadmes/merge-sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/otherReadmes/merge-sort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +259,7 @@
       <workItem from="1580447127071" duration="54000" />
       <workItem from="1581389479450" duration="6249000" />
       <workItem from="1581475967224" duration="5331000" />
+      <workItem from="1581487641479" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>

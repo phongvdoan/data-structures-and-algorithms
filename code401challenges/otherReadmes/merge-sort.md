@@ -1,6 +1,8 @@
 # Challenge Summary
 <!-- Short summary or background information -->
 
+[Code](/code401challenges/src/main/java/code401challenges/mergeSort/mergeSort.java)
+
 Write a merge sort method that sorts from least to greatest using recursion.
 ## Challenge Description
 <!-- Description of the challenge -->
@@ -14,4 +16,4 @@ Present a complete set of working tests
 If array has one or none element then it will return the array with no changes. If it is greater than 1 then the recursive function will call on each split of left and right until the base case is reached. BigO for time is O(n) and for space is O(n)
 ## Solution
 <!-- Embedded whiteboard image -->
-[Link to Blog](code401challenges/src/main/java/code401challenges/mergeSort/blog.md)
+[Link to Blog](/code401challenges/src/main/java/code401challenges/mergeSort/blog.md)
