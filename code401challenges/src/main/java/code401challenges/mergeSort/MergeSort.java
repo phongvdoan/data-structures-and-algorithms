@@ -5,11 +5,10 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    public static int[] merge(int[] left, int[] right) {
+    public static void merge(int[] left, int[] right, int[] arr) {
         int i = 0;
         int j = 0;
         int k = 0;
-        int[] arr = new int[left.length + right.length];
 
         while (i < left.length && j < right.length){
             if(left[i] < right[j]){
@@ -31,19 +30,20 @@ public class MergeSort {
             j++;
             k++;
         }
-        return arr;
     }
 
-    public static int[] mergeSort(int[] arr){
+    public static void mergeSort(int[] arr){
 
         if(arr.length <= 1) {
-            return arr;
+           return;
         }
         int length = arr.length;
         int mid = length/2;
         int[] left = Arrays.copyOfRange(arr, 0, mid);
         int[] right = Arrays.copyOfRange(arr, mid, arr.length);
-        return merge(mergeSort(left),mergeSort(right));
+        mergeSort(left);
+        mergeSort(right);
+        merge(left,right,arr);
 
     }
 
