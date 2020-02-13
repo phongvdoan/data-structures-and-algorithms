@@ -63,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -260,6 +260,8 @@
       <workItem from="1581475967224" duration="5331000" />
       <workItem from="1581487641479" duration="88000" />
       <workItem from="1581544388821" duration="891000" />
+      <workItem from="1581561993258" duration="1814000" />
+      <workItem from="1581613610380" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
