@@ -34,3 +34,5 @@
 [Day 26: Insertion Sort](code401challenges/otherReadmes/insertion-sort.md)
 
 [Day 27: Merge Sort](code401challenges/otherReadmes/merge-sort.md)
+
+[Day 28: Quick Sort](code401challenges/otherReadmes/quick-sort.md)

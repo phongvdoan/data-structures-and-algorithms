@@ -32,3 +32,5 @@
 [Day 26: Insertion Sort](otherReadmes/insertion-sort.md)
 
 [Day 27: Merge Sort](otherReadmes/merge-sort.md)
+
+[Day 28: Quick Sort](otherReadmes/quick-sort.md)
