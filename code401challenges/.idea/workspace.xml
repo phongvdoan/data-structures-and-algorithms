@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/quickSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/quickSort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/quickSort/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/quickSort/blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,47 +117,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuickSortTest.testQuickSort">
-    <configuration name="MergeSortTest.testMerge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMerge&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MergeSortTest.testMergeSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMergeSort&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.QuickSortTest">
     <configuration name="MergeSortTest.testMergeSort_emptyArr" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortTest.testMergeSort_lengthOfOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMergeSort_lengthOfOne&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,13 +178,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="QuickSortTest.testQuickSort_noElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest.testQuickSort_noElement&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickSortTest.testQuickSort_oneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest.testQuickSort_oneElement&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuickSortTest" />
         <item itemvalue="Gradle.QuickSortTest.testQuickSort" />
+        <item itemvalue="Gradle.QuickSortTest.testQuickSort_noElement" />
+        <item itemvalue="Gradle.QuickSortTest.testQuickSort_oneElement" />
         <item itemvalue="Gradle.MergeSortTest.testMergeSort_emptyArr" />
-        <item itemvalue="Gradle.MergeSortTest.testMergeSort_lengthOfOne" />
-        <item itemvalue="Gradle.MergeSortTest.testMergeSort" />
-        <item itemvalue="Gradle.MergeSortTest.testMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +266,7 @@
       <workItem from="1581622503971" duration="2231000" />
       <workItem from="1581634496239" duration="98000" />
       <workItem from="1581637383588" duration="733000" />
-      <workItem from="1581647079216" duration="1581000" />
+      <workItem from="1581647079216" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -329,57 +327,57 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1581648976136">
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1581649368714">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648976136" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581639005837" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1581648976135">
+    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1581649368713">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648976135" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368713" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581639005836" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1581648976134">
+    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1581649368712">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648976134" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368712" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581639005836" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1581648976135">
+    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1581649368714">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648976135" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581639005837" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581648347434">
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916346" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648347434" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368715" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1580331537690" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1581648347433">
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648347433" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368715" />
     <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1580331537690" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1581648347432">
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1581649368714">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916344" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648347432" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
     <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1580331537689" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1581648347433">
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579669916345" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581648347433" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368715" />
     <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1580331537690" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1579803253350">
       <screen x="0" y="0" width="1440" height="900" />
