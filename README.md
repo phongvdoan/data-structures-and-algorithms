@@ -36,3 +36,5 @@
 [Day 27: Merge Sort](code401challenges/otherReadmes/merge-sort.md)
 
 [Day 28: Quick Sort](code401challenges/otherReadmes/quick-sort.md)
+
+[Day 30: HashTable](code401challenges/otherReadmes/hashtableREADME.md)
