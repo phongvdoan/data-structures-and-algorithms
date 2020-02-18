@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,11 +105,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.hashtable" />
       <recent name="code401challenges.quickSort" />
       <recent name="code401challenges.mergeSort" />
       <recent name="code401challenges.insertionSort" />
       <recent name="code401challenges.tree" />
-      <recent name="code401challenges.utilities" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -117,13 +118,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuickSortTest">
-    <configuration name="MergeSortTest.testMergeSort_emptyArr" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HashtableTest.testContains_returnFalse">
+    <configuration name="HashtableTest.testAdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.mergeSort.MergeSortTest.testMergeSort_emptyArr&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAdd&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testAddToGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAddToGet&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,12 +159,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testContains_returnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest.testQuickSort&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testContains_returnFalse&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,12 +179,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSort_noElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testContains_returnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest.testQuickSort_noElement&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testContains_returnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -198,12 +199,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSort_oneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGet_null" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.quickSort.QuickSortTest.testQuickSort_oneElement&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testGet_null&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QuickSortTest" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSort" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSort_noElement" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSort_oneElement" />
-        <item itemvalue="Gradle.MergeSortTest.testMergeSort_emptyArr" />
+        <item itemvalue="Gradle.HashtableTest.testContains_returnFalse" />
+        <item itemvalue="Gradle.HashtableTest.testContains_returnTrue" />
+        <item itemvalue="Gradle.HashtableTest.testGet_null" />
+        <item itemvalue="Gradle.HashtableTest.testAddToGet" />
+        <item itemvalue="Gradle.HashtableTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +268,8 @@
       <workItem from="1581634496239" duration="98000" />
       <workItem from="1581637383588" duration="733000" />
       <workItem from="1581647079216" duration="2075000" />
+      <workItem from="1582045990617" duration="7510000" />
+      <workItem from="1582053977274" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -310,11 +313,12 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.808@0.23.1440.808" timestamp="1581441821255" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1580151946516">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1582046527594">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1582046527594" />
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1580358902589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -327,34 +331,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1581649368714">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582053974198">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581639005837" />
-    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1581649368713">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582053974198" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582053974197">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368713" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581639005836" />
-    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1581649368712">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582053974197" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582053974197">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368712" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581639005836" />
-    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1581649368714">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582053974197" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582053974198">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581639005837" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582053974198" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -391,20 +395,22 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581647241568">
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582047644059">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581647241568" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582047644059" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="312" y="152" width="816" height="550" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1580407910393" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580325750367">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="199" width="670" height="607" key="search.everywhere.popup" timestamp="1582051432156">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580325750367" />
+    <state x="385" y="199" width="670" height="607" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1582051432156" />
   </component>
   <component name="masterDetails">
     <states>

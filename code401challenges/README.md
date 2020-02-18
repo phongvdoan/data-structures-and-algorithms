@@ -34,3 +34,6 @@
 [Day 27: Merge Sort](otherReadmes/merge-sort.md)
 
 [Day 28: Quick Sort](otherReadmes/quick-sort.md)
+
+[Day 30: HashTable](otherReadmes/hashtableREADME.md)
+

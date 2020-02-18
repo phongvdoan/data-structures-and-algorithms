@@ -8,16 +8,16 @@ import org.apache.commons.math3.exception.OutOfRangeException;
 import java.util.NoSuchElementException;
 import java.util.StringJoiner;
 
-public class LinkedList {
+public class LinkedList <E> {
 
-    public Node head;
+    public Node <E> head;
 
     public LinkedList() {
         this.head = null;
     }
 
     //https://www.youtube.com/watch?v=SMIq13-FZSE
-    public void append(int value)throws NullArgumentException {
+    public void append(E value)throws NullArgumentException {
         Node node = new Node( value, null);
         if ( this.head == null){
             this.head = node;
@@ -31,7 +31,7 @@ public class LinkedList {
 
     }
 
-    public void insertBefore(int previousVal, int newVal)throws NoSuchElementException {
+    public void insertBefore(E previousVal, E newVal)throws NoSuchElementException {
 
 
         if(this.head.value == previousVal){
@@ -48,7 +48,7 @@ public class LinkedList {
         }
     }
 
-    public void insertAfter(int previousVal, int newVal)throws NoSuchElementException {
+    public void insertAfter(E previousVal, E newVal)throws NoSuchElementException {
 
         Node currentNode = this.head;
         while(currentNode != null) {
@@ -59,7 +59,7 @@ public class LinkedList {
         }
     }
 
-    public void delete(int value ){
+    public void delete(E value ){
         Node currentNode = this.head;
         if(head.value == value){
             head = currentNode.next;
@@ -75,11 +75,11 @@ public class LinkedList {
 
     //https://www.youtube.com/watch?v=SMIq13-FZSE
     // this adds to the beginning versus the video shows to add to the end.
-    public void insert(Integer value) throws NullArgumentException {
+    public void insert(E value) throws NullArgumentException {
             this.head = new Node(value, this.head);
     }
 
-    public boolean includes(Integer value) throws NoSuchElementException {
+    public boolean includes(E value) throws NoSuchElementException {
 
             Node currentNode = this.head;
             while (currentNode != null) {
@@ -108,7 +108,7 @@ public class LinkedList {
         }
     }
 
-    public int kthFromEnd(int k) {
+    public E kthFromEnd(int k) {
         int counter = this.size();
 
         if(k > counter){
