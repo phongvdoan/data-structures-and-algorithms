@@ -1,11 +1,11 @@
 package code401challenges.linkedList;
 
-public class Node {
+public class Node <E> {
 
-    public int value;
-    public Node next;
+    public E value;
+    public Node <E> next;
 
-    public Node (Integer value, Node next) {
+    public Node (E value, Node next) {
         this.value = value;
         this.next = next;
     }
