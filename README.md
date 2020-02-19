@@ -38,3 +38,5 @@
 [Day 28: Quick Sort](code401challenges/otherReadmes/quick-sort.md)
 
 [Day 30: HashTable](code401challenges/otherReadmes/hashtableREADME.md)
+
+[Day 32: Repeated Word](code401challenges/otherReadmes/repeatedwordREADME.md)
