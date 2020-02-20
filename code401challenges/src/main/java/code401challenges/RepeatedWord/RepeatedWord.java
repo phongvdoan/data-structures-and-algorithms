@@ -12,13 +12,12 @@ public class RepeatedWord {
 
         for(String initialWord : stringArr){
             String word = initialWord.toLowerCase();
-            if(!stringHashTable.contains(word)){
-                stringHashTable.add(word, word);
-            } else if(stringHashTable.contains(word)){
+            if(stringHashTable.contains(word)){
                 return word;
             }
-
+            stringHashTable.add(word, word);
         }
         return null;
     }
+
 }
