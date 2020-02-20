@@ -64,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,11 +105,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.RepeatedWord" />
       <recent name="code401challenges.hashtable" />
       <recent name="code401challenges.quickSort" />
       <recent name="code401challenges.mergeSort" />
       <recent name="code401challenges.insertionSort" />
-      <recent name="code401challenges.tree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,13 +118,13 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HashtableTest.testContains_returnFalse">
-    <configuration name="HashtableTest.testAdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RepeatedWordTest.testForNoRepeatedWords">
+    <configuration name="HashtableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAdd&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -139,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashtableTest.testAddToGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RepeatedWordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testAddToGet&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,12 +159,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashtableTest.testContains_returnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RepeatedWordTest.testForNoRepeatedWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testContains_returnFalse&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.testForNoRepeatedWords&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,12 +179,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashtableTest.testContains_returnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RepeatedWordTest.testForNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testContains_returnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.testForNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,12 +199,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashtableTest.testGet_null" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RepeatedWordTest.testForOneWordString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest.testGet_null&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.testForOneWordString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -221,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HashtableTest.testContains_returnFalse" />
-        <item itemvalue="Gradle.HashtableTest.testContains_returnTrue" />
-        <item itemvalue="Gradle.HashtableTest.testGet_null" />
-        <item itemvalue="Gradle.HashtableTest.testAddToGet" />
-        <item itemvalue="Gradle.HashtableTest.testAdd" />
+        <item itemvalue="Gradle.RepeatedWordTest.testForNoRepeatedWords" />
+        <item itemvalue="Gradle.RepeatedWordTest.testForOneWordString" />
+        <item itemvalue="Gradle.RepeatedWordTest.testForNull" />
+        <item itemvalue="Gradle.RepeatedWordTest" />
+        <item itemvalue="Gradle.HashtableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +270,7 @@
       <workItem from="1581647079216" duration="2075000" />
       <workItem from="1582045990617" duration="7510000" />
       <workItem from="1582053977274" duration="41000" />
+      <workItem from="1582074720060" duration="5872000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -309,16 +310,16 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579669234414" />
-    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581441821255">
+    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582089389759">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.808@0.23.1440.808" timestamp="1581441821255" />
-    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1582046527594">
+    <state x="200" y="150" width="1240" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.808@0.23.1440.808" timestamp="1582089389759" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1582090398208">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580151946516" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1579667601769" />
-    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1582046527594" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1582090398208" />
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1580358902589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -331,34 +332,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582053974198">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582092516952">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582053974198" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582053974197">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582092516952" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582092516952">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368713" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582053974197" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582053974197">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582092516952" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582092516952">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368712" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582053974197" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582053974198">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582092516952" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582092516952">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582053974198" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582092516952" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -395,13 +396,13 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582047644059">
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582076959346">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581647241568" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582047644059" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582076959346" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
       <screen x="0" y="23" width="1440" height="808" />
     </state>

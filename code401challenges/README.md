@@ -37,3 +37,5 @@
 
 [Day 30: HashTable](otherReadmes/hashtableREADME.md)
 
+[Day 32: Repeated Word](otherReadmes/repeatedwordREADME.md)
+

@@ -1,29 +1,27 @@
 package code401challenges.hashtable;
 
-
-import code401challenges.linkedList.LinkedList;
-
-import java.util.List;
-
 public class Hashtable <E> {
 
     int size;
-    LinkedList<String>[] hashtable;
+    Node<String>[] hashArr;
 
     public Hashtable(int size) {
         this.size = size;
-        this.hashtable= new LinkedList[size];
+        this.hashArr= new Node[size];
     }
 
     public void add(String key, E value) {
 
         int position = hash(key);
 
-        if (this.hashtable[position] == null) {
-            this.hashtable[position] = new LinkedList<>();
+        if (this.hashArr[position] == null) {
+            this.hashArr[position] = new Node(key,value,null);
         }
-
-        this.hashtable[position].append((key+ ": " + value));
+        Node<String> currentNode = this.hashArr[position];
+        while(currentNode.nextNode != null) {
+            currentNode = currentNode.nextNode;
+        }
+        currentNode.nextNode = new Node(key, value, null);
 
 
     }
@@ -41,26 +39,33 @@ public class Hashtable <E> {
 
         int position = hash(key);
 
-        if(this.hashtable[position] == null){
+        if(this.hashArr[position] == null){
             return null;
         }
-        LinkedList<String> currentList = this.hashtable[position];
-        while(!currentList.head.value.contains(key)) {
-            currentList.head = currentList.head.next;
+        Node<String> currentList = this.hashArr[position];
+        while(!currentList.key.contains(key)) {
+            currentList = currentList.nextNode;
         }
-        String valueOfNode = currentList.head.value;
-        String result = valueOfNode.substring(valueOfNode.indexOf(" ")).trim();
-
-        return result;
+        return currentList.value;
 
     }
 
     public Boolean contains(String key) {
         int position = hash(key);
-        if(this.hashtable[position] == null){
-            return false;
-        } else {
-            return true;
+        if(this.hashArr[position] != null) {
+            if (this.hashArr[position].key.contains(key)) {
+                return true;
+            }
         }
+
+        Node<String> currentList = this.hashArr[position];
+        while(currentList != null){
+            if(currentList.key.contains(key)){
+                return true;
+            }
+            currentList = currentList.nextNode;
+        }
+        return false;
+
     }
 }
