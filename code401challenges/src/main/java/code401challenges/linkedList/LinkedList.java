@@ -1,7 +1,6 @@
 //https://stackoverflow.com/questions/12631333/initializing-singly-linked-list-java
 package code401challenges.linkedList;
 
-import code401challenges.InvalidInputException;
 import org.apache.commons.math3.exception.NullArgumentException;
 import org.apache.commons.math3.exception.OutOfRangeException;
 

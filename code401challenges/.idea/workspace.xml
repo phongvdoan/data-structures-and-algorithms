@@ -4,6 +4,8 @@
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/MultiBracketValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -105,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.TreeIntersection" />
       <recent name="code401challenges.RepeatedWord" />
       <recent name="code401challenges.hashtable" />
       <recent name="code401challenges.quickSort" />
       <recent name="code401challenges.mergeSort" />
-      <recent name="code401challenges.insertionSort" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -275,6 +277,7 @@
       <workItem from="1582144488547" duration="58000" />
       <workItem from="1582150653519" duration="385000" />
       <workItem from="1582218783377" duration="681000" />
+      <workItem from="1582220006243" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -400,13 +403,13 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582076959346">
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582221576415">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581647241568" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582076959346" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582221576415" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1580407910393">
       <screen x="0" y="23" width="1440" height="808" />
     </state>

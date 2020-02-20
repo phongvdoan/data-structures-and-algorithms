@@ -2,8 +2,6 @@ package code401challenges.RepeatedWord;
 
 import code401challenges.hashtable.Hashtable;
 
-import java.lang.reflect.Array;
-
 public class RepeatedWord {
 
     public static String firstRepeatedWord(String lengthyString){

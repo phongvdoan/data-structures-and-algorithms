@@ -1,7 +1,6 @@
 package code401challenges.utilities;
 
 import java.util.LinkedList;
-import java.util.NoSuchElementException;
 
 public class MultiBracketValidation {
 
