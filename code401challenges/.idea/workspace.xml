@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/RepeatedWord/RepeatedWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/utilities/MultiBracketValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,47 +118,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RepeatedWordTest.testForNoRepeatedWords">
-    <configuration name="HashtableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.hashtable.HashtableTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RepeatedWordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TreeIntersectionTest.testTree_intersection_NoIntersection">
     <configuration name="RepeatedWordTest.testForNoRepeatedWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,12 +139,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepeatedWordTest.testForNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeIntersectionTest.testTree_intersection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.testForNull&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.TreeIntersection.TreeIntersectionTest.testTree_intersection&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,12 +159,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepeatedWordTest.testForOneWordString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeIntersectionTest.testTree_intersection_EmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.RepeatedWord.RepeatedWordTest.testForOneWordString&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.TreeIntersection.TreeIntersectionTest.testTree_intersection_EmptyTree&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeIntersectionTest.testTree_intersection_NoIntersection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.TreeIntersection.TreeIntersectionTest.testTree_intersection_NoIntersection&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeIntersectionTest.testTree_intersection_WithDuplicateValuesInOneTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.TreeIntersection.TreeIntersectionTest.testTree_intersection_WithDuplicateValuesInOneTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -223,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeIntersectionTest.testTree_intersection_NoIntersection" />
+        <item itemvalue="Gradle.TreeIntersectionTest.testTree_intersection_EmptyTree" />
+        <item itemvalue="Gradle.TreeIntersectionTest.testTree_intersection_WithDuplicateValuesInOneTree" />
+        <item itemvalue="Gradle.TreeIntersectionTest.testTree_intersection" />
         <item itemvalue="Gradle.RepeatedWordTest.testForNoRepeatedWords" />
-        <item itemvalue="Gradle.RepeatedWordTest.testForOneWordString" />
-        <item itemvalue="Gradle.RepeatedWordTest.testForNull" />
-        <item itemvalue="Gradle.RepeatedWordTest" />
-        <item itemvalue="Gradle.HashtableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +275,7 @@
       <workItem from="1582144488547" duration="58000" />
       <workItem from="1582150653519" duration="385000" />
       <workItem from="1582218783377" duration="681000" />
-      <workItem from="1582220006243" duration="2382000" />
+      <workItem from="1582220006243" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -339,34 +337,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582151038159">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582223921684">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582151038159" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582151038159">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582223921684" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582223921683">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368713" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582151038159" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582151038158">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582223921683" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582223921682">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368712" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582151038158" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582151038159">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582223921682" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582223921683">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581649368714" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582151038159" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582223921683" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
