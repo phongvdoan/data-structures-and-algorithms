@@ -14,4 +14,4 @@ Without utilizing any of the built-in library methods available to your language
 I split the long string into a string array with each word in an index. Then I iterated using a foreach loop to check to see if it is contained in a hastable, if it is not then the word is placed in the hashtable as a key. If it finds it again then the word is returned. The BigO of time is O(n) and space is O(n).
 ## Solution
 <!-- Embedded whiteboard image -->
-![](../assets/repeatedword.jpg)
+![](../assets/repeatedWord.jpg)
