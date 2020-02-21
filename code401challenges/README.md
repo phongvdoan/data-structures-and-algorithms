@@ -39,3 +39,5 @@
 
 [Day 32: Repeated Word](otherReadmes/repeatedwordREADME.md)
 
+[Day 33: Tree Intersection](otherReadmes/treeIntersectionREADME.md)
+
