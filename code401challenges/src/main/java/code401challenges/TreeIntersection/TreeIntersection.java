@@ -13,18 +13,18 @@ public class TreeIntersection {
         Hashtable<Integer> integerHashtable = new Hashtable<>(firstTreeArr.length);
         ArrayList<Integer> resultArr = new ArrayList<>();
 
-        for(int i = 0; i < firstTreeArr.length; i++) {
-            String conversion = firstTreeArr[i].toString();
+        for (Integer integer : firstTreeArr) {
+            String conversion = integer.toString();
             integerHashtable.add(conversion, 0);
         }
-        for(int i = 0; i < secTreeArr.length; i++) {
-            String valToLookFor = secTreeArr[i].toString();
-            if(integerHashtable.contains(valToLookFor)){
-                resultArr.add(secTreeArr[i]);
+        for (Integer integer : secTreeArr) {
+            String valToLookFor = integer.toString();
+            if (integerHashtable.contains(valToLookFor)) {
+                resultArr.add(integer);
             }
 
         }
-        return  resultArr.toArray(new Integer[resultArr.size()]);
+        return  resultArr.toArray(new Integer[0]);
     }
 
 

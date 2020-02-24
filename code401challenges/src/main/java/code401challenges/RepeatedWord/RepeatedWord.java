@@ -6,7 +6,7 @@ public class RepeatedWord {
 
     public static String firstRepeatedWord(String lengthyString){
         String[] stringArr = lengthyString.split(",?\\s* ");
-        Hashtable stringHashTable = new Hashtable(stringArr.length);
+        Hashtable<String> stringHashTable = new Hashtable<>(stringArr.length);
 
         for(String initialWord : stringArr){
             String word = initialWord.toLowerCase();
