@@ -22,7 +22,10 @@ public class TreeIntersection {
             if(integerHashtable.contains(valToLookFor)){
                 resultArr.add(secTreeArr[i]);
             }
+
         }
         return  resultArr.toArray(new Integer[resultArr.size()]);
     }
+
+
 }

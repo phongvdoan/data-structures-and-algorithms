@@ -54,4 +54,14 @@ public class HashtableTest {
     public void testContains_returnFalse() {
         assertFalse(testHashTable.contains("BANG"));
     }
+
+    @Test
+    public void testCollision(){
+        Hashtable<String> collisionHashTable = new Hashtable<>(1);
+        collisionHashTable.add("bob", "says hi");
+        collisionHashTable.add("mani", "says bye");
+        assertEquals("says bye", collisionHashTable.get("mani"));
+        assertEquals("says hi", collisionHashTable.get("bob"));
+    }
+
 }
