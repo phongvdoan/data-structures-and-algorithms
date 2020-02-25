@@ -46,10 +46,10 @@ public class GraphTest {
         Node<String> stringNode = testGraphTwo.addNode("DOG");
         assertEquals("Node{value=19, edges=[]}", intNode.toString());
         testGraphOne.addEdge(integerNode,intNode, 5);
-        assertEquals("Node{value=19, edges=[Edge{weight=5, nextNode=Node{value=15, edges=[]}}]}", intNode.toString());
+        assertEquals("Node{value=19, edges=[Edge{weight=5, nextNode=15}]}", intNode.toString());
         assertEquals("Node{value=DOG, edges=[]}", stringNode.toString());
         testGraphTwo.addEdge(stringNode, testNodeFourString, 6);
-        assertEquals("Node{value=Maya, edges=[Edge{weight=6, nextNode=Node{value=DOG, edges=[]}}]}", testNodeFourString.toString());
+        assertEquals("Node{value=Maya, edges=[Edge{weight=6, nextNode=DOG}]}", testNodeFourString.toString());
     }
 
     @Test
