@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,20 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.code401challenges [test]">
+  <component name="RunManager" selected="Application.BreadthFirst">
+    <configuration name="BreadthFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code401challenges.BreadthFirst.BreadthFirst" />
+      <module name="code401challenges.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.BreadthFirst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreadthFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,26 +197,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BreadthFirstTest.TestBreadthFirstTraversal_TestTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.BreadthFirst.BreadthFirstTest.TestBreadthFirstTraversal_TestTwo&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreadthFirst" />
         <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="Gradle.BreadthFirstTest.TestBreadthFirstTraversal_TestThree" />
         <item itemvalue="Gradle.BreadthFirstTest" />
         <item itemvalue="Gradle.BreadthFirstTest.TestBreadthFirstTraversal" />
-        <item itemvalue="Gradle.BreadthFirstTest.TestBreadthFirstTraversal_TestTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +283,8 @@
       <workItem from="1582582717606" duration="400000" />
       <workItem from="1582586813176" duration="17000" />
       <workItem from="1582597748519" duration="6422000" />
+      <workItem from="1582668613985" duration="88000" />
+      <workItem from="1582668809500" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -365,34 +358,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="188" key="GridCell.Tab.0.bottom" timestamp="1582651382950">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1582669550199">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580327445662" />
     <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582651382950" />
-    <state width="1398" height="188" key="GridCell.Tab.0.center" timestamp="1582651382949">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582669550199" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1582669550198">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582651382949" />
-    <state width="1398" height="188" key="GridCell.Tab.0.left" timestamp="1582651382949">
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582669550198" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1582669550198">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580327445660" />
     <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582651382949" />
-    <state width="1398" height="188" key="GridCell.Tab.0.right" timestamp="1582651382950">
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582669550198" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1582669550199">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580327445661" />
     <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582651382950" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582669550199" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581649368715">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
