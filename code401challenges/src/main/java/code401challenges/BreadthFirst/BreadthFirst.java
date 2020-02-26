@@ -5,6 +5,7 @@ import code401challenges.graph.Edge;
 import code401challenges.graph.Graph;
 import code401challenges.graph.Node;
 import code401challenges.stacksandqueues.Queue;
+import code401challenges.stacksandqueues.Stack;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -24,6 +25,8 @@ public class BreadthFirst<E> {
         testStringGraph.addEdge(janai, maya,2);
         List<Node<String>> resultList = testStringGraph.breadthFirstTraversal(maya);
         System.out.println(resultList.toString());
+        List<Node<String>> resultListDFS = testStringGraph.depthfirst(maya);
+        System.out.println(resultListDFS);
     }
 
 
@@ -44,6 +47,29 @@ public class BreadthFirst<E> {
                }
             }
             resultList.add(currentNode);
+        }
+        return resultList;
+    }
+
+    public  List<Node<E>> depthfirst(Node<E> node) {
+        Set<Node<E>> seenSet = new HashSet<>();
+        Stack<Node<E>> needsToProcess = new Stack<>();
+        List<Node<E>> resultList = new LinkedList<>();
+
+        needsToProcess.push(node);
+        while(!needsToProcess.isEmpty()) {
+            Node<E> currentNode = needsToProcess.pop();
+            if(!seenSet.contains(currentNode)){
+                resultList.add(currentNode);
+                for(int i = 0; i < currentNode.edges.size(); i++) {
+                    Edge<E> currentEdge = currentNode.getEdges().get(i);
+                    if(!seenSet.contains(currentEdge.nextNode)){
+                        needsToProcess.push(currentEdge.nextNode);
+                    }
+                }
+                seenSet.add(node);
+            }
+
         }
         return resultList;
     }
