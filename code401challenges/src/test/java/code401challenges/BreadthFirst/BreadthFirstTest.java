@@ -34,18 +34,18 @@ public class BreadthFirstTest {
     @Test
     public void TestBreadthFirstTraversal() {
         List<Node<String>> resultList = testStringGraph.breadthFirstTraversal(maya);
-        assertEquals("[Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}]}, Node{value=Phong, edges=[Edge{weight=2, nextNode=Mani}]}, Node{value=Mani, edges=[Edge{weight=2, nextNode=Janai}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}]}]", resultList.toString());
+        assertEquals("[Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}, Edge{weight=1, nextNode=Janai}]}, Node{value=Phong, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}, Node{value=Mani, edges=[Edge{weight=2, nextNode=Phong}, Edge{weight=2, nextNode=Janai}]}]", resultList.toString());
     }
 
     @Test
     public void TestBreadthFirstTraversal_TestTwo() {
         List<Node<String>> resultList = testStringGraph.breadthFirstTraversal(phong);
-        assertEquals("[Node{value=Phong, edges=[Edge{weight=2, nextNode=Mani}]}, Node{value=Mani, edges=[Edge{weight=2, nextNode=Janai}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}]}, Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}]}]", resultList.toString());
+        assertEquals("[Node{value=Phong, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}, Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}, Edge{weight=1, nextNode=Janai}]}, Node{value=Mani, edges=[Edge{weight=2, nextNode=Phong}, Edge{weight=2, nextNode=Janai}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}]", resultList.toString());
     }
 
     @Test
     public void TestBreadthFirstTraversal_TestThree() {
         List<Node<String>> resultList = testStringGraph.breadthFirstTraversal(mani);
-        assertEquals("[Node{value=Mani, edges=[Edge{weight=2, nextNode=Janai}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}]}, Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}]}, Node{value=Phong, edges=[Edge{weight=2, nextNode=Mani}]}]", resultList.toString());
+        assertEquals("[Node{value=Mani, edges=[Edge{weight=2, nextNode=Phong}, Edge{weight=2, nextNode=Janai}]}, Node{value=Phong, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}, Node{value=Janai, edges=[Edge{weight=1, nextNode=Maya}, Edge{weight=2, nextNode=Mani}]}, Node{value=Maya, edges=[Edge{weight=1, nextNode=Phong}, Edge{weight=1, nextNode=Janai}]}]", resultList.toString());
     }
 }

@@ -77,9 +77,9 @@ public class GraphTest {
     public void getNeighbors() {
         Node<String> stringNode = testGraphTwo.addNode("DOG");
         testGraphTwo.addEdge(stringNode, testNodeFourString, 6);
-        assertEquals("{Node{value=DOG, edges=[]}=6}", testGraphTwo.getNeighbors(testNodeFourString).toString());
+        assertEquals("{Node{value=DOG, edges=[Edge{weight=6, nextNode=Maya}]}=6}", testGraphTwo.getNeighbors(testNodeFourString).toString());
         testGraphOne.addEdge(testNodeOne,testNodeTwo,3);
-        assertEquals("{Node{value=10, edges=[]}=3}", testGraphOne.getNeighbors(testNodeTwo).toString());
+        assertEquals("{Node{value=10, edges=[Edge{weight=3, nextNode=20}]}=3}", testGraphOne.getNeighbors(testNodeTwo).toString());
     }
 
     @Test

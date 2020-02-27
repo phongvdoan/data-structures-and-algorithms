@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherReadmes/breadthFirstTraversal.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DepthFirstTest.testDepthFirstThree">
+  <component name="RunManager" selected="Gradle.code401challenges [test]">
     <configuration name="BreadthFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code401challenges.BreadthFirst.BreadthFirst" />
       <module name="code401challenges.main" />
@@ -200,33 +201,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetEdgeTest.testGetGraphFour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetGraphFour&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.code401challenges [test]" />
         <item itemvalue="Gradle.DepthFirstTest.testDepthFirstThree" />
         <item itemvalue="Gradle.DepthFirstTest.testDepthFirstTwo" />
         <item itemvalue="Gradle.DepthFirstTest.testDepthFirst" />
         <item itemvalue="Application.BreadthFirst" />
-        <item itemvalue="Gradle.GetEdgeTest.testGetGraphFour" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +292,8 @@
       <workItem from="1582691133372" duration="6606000" />
       <workItem from="1582822851274" duration="2598000" />
       <workItem from="1582826823551" duration="443000" />
+      <workItem from="1582827356402" duration="44000" />
+      <workItem from="1582827416367" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -374,34 +376,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1582826732936">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1582827629119">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="886" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582747199214" />
     <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582826732936" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1582826732932">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582827629119" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1582827629118">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="886" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582747199213" />
     <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582826732932" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1582826732932">
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582827629118" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1582827629117">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="886" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582747199212" />
     <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582826732932" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1582826732933">
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582827629117" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1582827629118">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="886" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582747199214" />
     <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582826732933" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582827629118" />
     <state width="886" height="303" key="GridCell.Tab.1.bottom" timestamp="1582747987579">
       <screen x="0" y="23" width="1440" height="808" />
     </state>

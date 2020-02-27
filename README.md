@@ -45,7 +45,7 @@
 
 [Day 35: Graph](code401challenges/otherReadmes/graphREADME.md)
 
-[Day 36: Graph-Breadth First Traversal](code401challenges/otherReadmes/breadthFirstTraversal.md)
+[Day 36: Graph-Breadth First Traversal](code401challenges/otherReadmes/breadthFirst.md)
 
 [Day 37: Get Edge](code401challenges/otherReadmes/getEdgeREADME.md)
 

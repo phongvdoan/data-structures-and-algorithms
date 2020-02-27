@@ -43,7 +43,7 @@
 
 [Day 35: Graph](otherReadmes/graphREADME.md)
 
-[Day 36: Graph-Breadth First Traversal](otherReadmes/breadthFirstTraversal.md)
+[Day 36: Graph-Breadth First Traversal](otherReadmes/breadthFirst.md)
 
 [Day 37: Get Edge](otherReadmes/getEdgeREADME.md)
 
