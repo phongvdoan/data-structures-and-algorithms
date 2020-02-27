@@ -1,6 +1,7 @@
 package code401challenges.BreadthFirst;
 
 
+import code401challenges.GetEdge.GetEdge;
 import code401challenges.graph.Edge;
 import code401challenges.graph.Graph;
 import code401challenges.graph.Node;

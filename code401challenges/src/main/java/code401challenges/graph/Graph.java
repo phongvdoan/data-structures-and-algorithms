@@ -1,6 +1,7 @@
 package code401challenges.graph;
 
 import code401challenges.BreadthFirst.BreadthFirst;
+import code401challenges.GetEdge.GetEdge;
 
 import java.util.*;
 
@@ -21,7 +22,9 @@ public class Graph <E> extends BreadthFirst<E> {
     public void addEdge (Node<E> toNode, Node<E> fromNode, int weight){
 
         Edge<E> newEdge = new Edge<>(weight,toNode);
+        Edge<E> newEdgeTwo = new Edge<>(weight,fromNode);
         fromNode.edges.add(newEdge);
+        toNode.edges.add(newEdgeTwo);
     }
 
     public int size(){
