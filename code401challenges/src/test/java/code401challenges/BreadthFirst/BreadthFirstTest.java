@@ -30,6 +30,7 @@ public class BreadthFirstTest {
         testStringGraph.addEdge(janai, mani,2);
 
     }
+
     @Test
     public void TestBreadthFirstTraversal() {
         List<Node<String>> resultList = testStringGraph.breadthFirstTraversal(maya);
