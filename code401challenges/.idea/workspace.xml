@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd36e7a-9420-4457-95bd-2cad9f79542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BreadthFirst/BreadthFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherReadmes/breadthFirstTraversal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/BreadthFirst/BreadthFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/graph/GraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +114,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401challenges.DepthFirst" />
       <recent name="code401challenges.GetEdge" />
       <recent name="code401challenges.BreadthFirst" />
       <recent name="code401challenges.graph" />
       <recent name="code401challenges.TreeIntersection" />
-      <recent name="code401challenges.RepeatedWord" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -125,7 +127,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetEdgeTest.testGetGraphFour">
+  <component name="RunManager" selected="Gradle.code401challenges [test]">
     <configuration name="BreadthFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code401challenges.BreadthFirst.BreadthFirst" />
       <module name="code401challenges.main" />
@@ -139,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetEdgeTest.testGetGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepthFirstTest.testDepthFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetGraph&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.DepthFirst.DepthFirstTest.testDepthFirst&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,12 +161,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetEdgeTest.testGetGraphFour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepthFirstTest.testDepthFirstThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetGraphFour&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.DepthFirst.DepthFirstTest.testDepthFirstThree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,12 +181,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetEdgeTest.testGetGraphThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepthFirstTest.testDepthFirstTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetGraphThree&quot;" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.DepthFirst.DepthFirstTest.testDepthFirstTwo&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,32 +201,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetEdgeTest.testGetGraphTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="code401challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.GetEdge.GetEdgeTest.testGetGraphTwo&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetEdgeTest.testGetGraphFour" />
-        <item itemvalue="Gradle.GetEdgeTest.testGetGraphThree" />
-        <item itemvalue="Gradle.GetEdgeTest.testGetGraph" />
-        <item itemvalue="Gradle.GetEdgeTest.testGetGraphTwo" />
+        <item itemvalue="Gradle.code401challenges [test]" />
+        <item itemvalue="Gradle.DepthFirstTest.testDepthFirstThree" />
+        <item itemvalue="Gradle.DepthFirstTest.testDepthFirstTwo" />
+        <item itemvalue="Gradle.DepthFirstTest.testDepthFirst" />
         <item itemvalue="Application.BreadthFirst" />
       </list>
     </recent_temporary>
@@ -289,6 +290,10 @@
       <workItem from="1582668613985" duration="88000" />
       <workItem from="1582668809500" duration="707000" />
       <workItem from="1582691133372" duration="6606000" />
+      <workItem from="1582822851274" duration="2598000" />
+      <workItem from="1582826823551" duration="443000" />
+      <workItem from="1582827356402" duration="44000" />
+      <workItem from="1582827416367" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="added blog and code">
       <created>1581402357286</created>
@@ -324,6 +329,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added blog and code" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="308" y="92" key="#Illuminated_Cloud" timestamp="1582826873314">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="308" y="92" key="#Illuminated_Cloud/0.23.1440.808@0.23.1440.808" timestamp="1582826873314" />
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582743940772">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -337,12 +346,12 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="410" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.808@0.23.1440.808" timestamp="1582650921650" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1582745065865">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1582825886143">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582745065865" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582691360571" />
-    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1582734579422" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1582825886143" />
     <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1580358902589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -367,34 +376,34 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="172" y="29" key="CommitChangelistDialog2/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581402369799" />
-    <state width="886" height="303" key="GridCell.Tab.0.bottom" timestamp="1582747987578">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1582827629119">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="886" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582747199214" />
     <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="886" height="303" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582747987578" />
-    <state width="886" height="303" key="GridCell.Tab.0.center" timestamp="1582747987577">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1582827629119" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1582827629118">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434966" />
     <state width="886" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582747199213" />
     <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="886" height="303" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582747987577" />
-    <state width="886" height="303" key="GridCell.Tab.0.left" timestamp="1582747987577">
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1582827629118" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1582827629117">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434965" />
     <state width="886" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582747199212" />
     <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141656" />
-    <state width="886" height="303" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582747987577" />
-    <state width="886" height="303" key="GridCell.Tab.0.right" timestamp="1582747987578">
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1582827629117" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1582827629118">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580359434967" />
     <state width="886" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582747199214" />
     <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1582604141657" />
-    <state width="886" height="303" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582747987578" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1582827629118" />
     <state width="886" height="303" key="GridCell.Tab.1.bottom" timestamp="1582747987579">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -436,13 +445,13 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1579803148129" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582743966519">
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582823395522">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580164891658" />
     <state x="486" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1580151551122" />
     <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808/1440.23.1366.745@0.23.1440.808" timestamp="1581647241568" />
-    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582743966519" />
+    <state x="486" y="161" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.808@0.23.1440.808" timestamp="1582823395522" />
     <state x="312" y="152" width="816" height="550" key="find.popup" timestamp="1582576595504">
       <screen x="0" y="23" width="1440" height="808" />
     </state>

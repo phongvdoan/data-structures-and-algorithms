@@ -1,7 +1,7 @@
 package code401challenges.BreadthFirst;
 
 
-import code401challenges.GetEdge.GetEdge;
+
 import code401challenges.graph.Edge;
 import code401challenges.graph.Graph;
 import code401challenges.graph.Node;
@@ -62,13 +62,12 @@ public class BreadthFirst<E> {
             Node<E> currentNode = needsToProcess.pop();
             if(!seenSet.contains(currentNode)){
                 resultList.add(currentNode);
-                for(int i = 0; i < currentNode.edges.size(); i++) {
-                    Edge<E> currentEdge = currentNode.getEdges().get(i);
-                    if(!seenSet.contains(currentEdge.nextNode)){
-                        needsToProcess.push(currentEdge.nextNode);
+                for(Edge<E> edge : currentNode.edges) {
+                    if(!seenSet.contains(edge.nextNode)){
+                        needsToProcess.push(edge.nextNode);
                     }
                 }
-                seenSet.add(node);
+                seenSet.add(currentNode);
             }
 
         }
